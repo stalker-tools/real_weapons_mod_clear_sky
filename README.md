@@ -100,3 +100,8 @@ To apply patch file `real_weapon.patch` to gamedata folder:
 ```sh
 patch --verbose --directory=./gamedata/ --strip=1 < real_weapon.patch
 ```
+
+### Create mod zip file
+```sh
+real_weapons_create_mod_zip.sh
+```
