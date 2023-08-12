@@ -1,6 +1,6 @@
 # Real weapons mod for Clear Sky
 
-## Run Clear Sky
+## Run Clear Sky on Linux/Wine
 
 1. Hardware info.
 ```sh
