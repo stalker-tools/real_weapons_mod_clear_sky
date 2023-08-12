@@ -1,4 +1,4 @@
-# Real weapons mod for Clear Sky
+# Real Weapons mod for Clear Sky
 
 ## Run Clear Sky on Linux/Wine
 
