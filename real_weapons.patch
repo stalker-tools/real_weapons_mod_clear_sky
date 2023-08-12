@@ -1,0 +1,907 @@
+diff -bur ./configs/creatures/actor.ltx ../../gamedata/configs/creatures/actor.ltx
+--- ./configs/creatures/actor.ltx	2023-07-23 18:54:00.047271466 +0300
++++ ../../gamedata/configs/creatures/actor.ltx	2023-07-22 21:05:03.317502247 +0300
+@@ -20,11 +20,11 @@
+ terrain                                        = actor_terrain
+ 
+ max_item_mass           = 35 ;50.0
+-jump_speed              = 6.
++jump_speed              = 7.5
+ crouch_coef             = 0.30 ;0.45
+ climb_coef              = 0.7
+-run_coef                = 2.0 ;2.1
+-sprint_koef             = 1.9 ;2.6
++run_coef                = 2.7 ;2.9
++sprint_koef             = 2.3 ;3.2
+ run_back_coef           = 1.8
+ walk_back_coef          = 0.8
+ air_control_param       = 0.1
+@@ -49,8 +49,8 @@
+ stalker_restrictor_radius                        = .55;0.55;0.75;0.9
+ stalker_small_restrictor_radius                = .55;
+ medium_monster_restrictor_radius        = 0.1
+-ph_crash_speed_min                              = 14
+-ph_crash_speed_max                              = 30
++ph_crash_speed_min                              = 17
++ph_crash_speed_max                              = 35
+ ph_collision_damage_factor                        = 1.0
+ ph_mass                                                         = 80
+ 
+@@ -119,15 +119,15 @@
+ still_visible_time                        = 5000                                ; �����, ������� ������ �� ��� ��������� �������, ���� ���� �� ��� �� �� ��������
+ 
+ [actor_immunities_gd_novice]
+-burn_immunity           = 0.3 ;0.45                                ;������������ ����������
+-strike_immunity         = 0.3 ;0.45
+-shock_immunity          = 0.3 ;0.45
+-wound_immunity          = 0.3 ;0.45
+-radiation_immunity      = 0.3 ;0.45
+-telepatic_immunity      = 0.3 ;0.45
+-chemical_burn_immunity  = 0.3 ;0.45
+-explosion_immunity      = 0.3 ;0.45
+-fire_wound_immunity 	= 0.1
++burn_immunity           = 0.003 ;0.0045                                ;������������ ����������
++strike_immunity         = 0.003 ;0.0045
++shock_immunity          = 0.003 ;0.0045
++wound_immunity          = 0.003 ;0.0045
++radiation_immunity      = 0.003 ;0.0045
++telepatic_immunity      = 0.003 ;0.0045
++chemical_burn_immunity  = 0.003 ;0.0045
++explosion_immunity      = 0.003 ;0.0045
++fire_wound_immunity 	= 0.001
+ 
+ 
+ [actor_immunities_gd_stalker]
+@@ -164,7 +164,7 @@
+ fire_wound_immunity 	= 0.6
+ 
+ [actor_condition]
+-satiety_v				= 0.000015 	;�������� ���������� ������� �� ��������
++satiety_v				= 0.0015 	;�������� ���������� ������� �� ��������
+ radiation_v				= 0.0001	;�������� ���������� ��������
+ satiety_power_v			= 0.000055	;���������� ���� ��� ���������� �������
+ satiety_health_v		= 0.0001    ;���������� �������� ��� ���������� �������
+@@ -176,7 +176,7 @@
+ health_hit_part			= 1.0		;������� ����, �������� �� ��������� ��������
+ power_hit_part			= 0.1		;������� ����, �������� �� ��������� ����
+ max_power_leak_speed	= 0.0		;���������� ��������� (���� �������, �� ������� ����������������� ����) � ������� �������� �������
+-max_walk_weight			= 60
++max_walk_weight			= 80
+ 
+ bleeding_v 				= 0.002	 ;0.0005	;������ ����� ��� ����������� ���� � �������
+ 
+diff -bur ./configs/creatures/damages.ltx ../../gamedata/configs/creatures/damages.ltx
+--- ./configs/creatures/damages.ltx	2023-07-23 18:53:46.067291908 +0300
++++ ../../gamedata/configs/creatures/damages.ltx	2023-07-22 23:04:38.570539190 +0300
+@@ -560,109 +560,109 @@
+ hit_fraction				= 0.1
+ 
+ [stalker_bandit_1]:body_damage_1_h,head_damage_1
+-hit_fraction				= 0.5
++hit_fraction				= 1.5
+ 
+ [stalker_bandit_2]:body_damage_2,head_damage_1
+-hit_fraction				= 0.3
++hit_fraction				= 1.25
+ 
+ [stalker_bandit_3]:body_damage_2,head_damage_1
+-hit_fraction				= 0.2
++hit_fraction				= 0.8
+ 
+ [stalker_bandit_4]:body_damage_2,head_damage_1
+-hit_fraction				= 0.2
++hit_fraction				= 0.6
+ 
+ [stalker_dolg_1]:body_damage_2,head_damage_2
+-hit_fraction				= 0.3
++hit_fraction				= 1.2
+ 
+ [stalker_dolg_2]:body_damage_2,head_damage_1
+-hit_fraction				= 0.3
++hit_fraction				= 1.0
+ 
+ [stalker_dolg_3]:body_damage_4,head_damage_3
+-hit_fraction				= 0.2
++hit_fraction				= 0.8
+ 
+ [stalker_dolg_4]:body_damage_4,head_damage_3
+-hit_fraction				= 0.1
++hit_fraction				= 0.6
+ 
+ [stalker_freedom_1]:body_damage_2,head_damage_1
+-hit_fraction				= 0.3
++hit_fraction				= 1.2
+ 
+ [stalker_freedom_2]:body_damage_2,head_damage_1
+-hit_fraction				= 0.3
++hit_fraction				= 1.0
+ 
+ [stalker_freedom_3]:body_damage_3,head_damage_2
+-hit_fraction				= 0.2
++hit_fraction				= 0.8
+ 
+ [stalker_freedom_4]:body_damage_4,head_damage_3
+-hit_fraction				= 0.1
++hit_fraction				= 0.6
+ 
+ [stalker_merc_1]:body_damage_2,head_damage_1
+-hit_fraction				= 0.3
++hit_fraction				= 1.2
+ 
+ [stalker_merc_2]:body_damage_2,head_damage_1
+-hit_fraction				= 0.3
++hit_fraction				= 1.0
+ 
+ [stalker_merc_3]:body_damage_2,head_damage_1
+-hit_fraction				= 0.3
++hit_fraction				= 0.8
+ 
+ [stalker_merc_4]:body_damage_4,head_damage_3
+-hit_fraction				= 0.1
++hit_fraction				= 0.6
+ 
+ [stalker_monolith_1]:body_damage_2,head_damage_2
+-hit_fraction				= 0.3
++hit_fraction				= 1.2
+ 
+ [stalker_monolith_2]:body_damage_2,head_damage_1
+-hit_fraction				= 0.3
++hit_fraction				= 1.0
+ 
+ [stalker_monolith_3]:body_damage_4,head_damage_3
+-hit_fraction				= 0.2
++hit_fraction				= 0.8
+ 
+ [stalker_monolith_4]:body_damage_4,head_damage_3
+-hit_fraction				= 0.1
++hit_fraction				= 0.6
+ 
+ [stalker_nebo_1]:body_damage_2,head_damage_1
+-hit_fraction				= 0.3
++hit_fraction				= 1.2
+ 
+ [stalker_nebo_2]:body_damage_2,head_damage_3
+-hit_fraction				= 0.2
++hit_fraction				= 1.0
+ 
+ [stalker_nebo_3]:body_damage_2,head_damage_3
+-hit_fraction				= 0.2
++hit_fraction				= 0.8
+ 
+ [stalker_neutral_1]:body_damage_1,head_damage_1
+-hit_fraction				= 0.5
++hit_fraction				= 1.2
+ 
+ [stalker_neutral_2]:body_damage_2,head_damage_1
+-hit_fraction				= 0.3
++hit_fraction				= 1.0
+ 
+ [stalker_neutral_3]:body_damage_4,head_damage_3
+-hit_fraction				= 0.2
++hit_fraction				= 0.8
+ 
+ [stalker_neutral_4]:body_damage_4,head_damage_3
+-hit_fraction				= 0.1
++hit_fraction				= 0.6
+ 
+ [stalker_oon_1]:body_damage_2,head_damage_1
+-hit_fraction				= 0.1
++hit_fraction				= 0.3
+ 
+ [stalker_oon_2]:body_damage_2,head_damage_1
+-hit_fraction				= 0.1
++hit_fraction				= 0.3
+ 
+ [stalker_soldier_1]:body_damage_2,head_damage_1
+-hit_fraction				= 0.3
++hit_fraction				= 1.2
+ 
+ [stalker_soldier_2]:body_damage_3,head_damage_2
+-hit_fraction				= 0.2
++hit_fraction				= 1.0
+ 
+ [stalker_soldier_3]:body_damage_3,head_damage_3
+-hit_fraction				= 0.2
++hit_fraction				= 0.8
+ 
+ [stalker_soldier_4]:body_damage_4,head_damage_3
+-hit_fraction				= 0.1
++hit_fraction				= 0.6
+ 
+ [stalker_zombied_1]:body_damage_5,head_damage_5
+-hit_fraction				= 0.2
++hit_fraction				= 0.3
+ 
+ [stalker_zombied_2]:body_damage_5,head_damage_5
+-hit_fraction				= 0.2
++hit_fraction				= 0.25
+ 
+ [stalker_zombied_3]:body_damage_5,head_damage_5
+ hit_fraction				= 0.2
+diff -bur ./configs/misc/items.ltx ../../gamedata/configs/misc/items.ltx
+--- ./configs/misc/items.ltx	2023-07-23 18:54:00.055271454 +0300
++++ ../../gamedata/configs/misc/items.ltx	2023-07-20 21:43:11.374715862 +0300
+@@ -425,7 +425,7 @@
+ eat_satiety = 	0
+ eat_power = 	0.0
+ eat_radiation = 0.0
+-wounds_heal_perc = 0.5
++wounds_heal_perc = 0.85
+ eat_portions_num = 1	;100
+ 
+ ; food item
+diff -bur ./configs/weapons/w_ak74.ltx ../../gamedata/configs/weapons/w_ak74.ltx
+--- ./configs/weapons/w_ak74.ltx	2023-07-23 18:53:46.263291620 +0300
++++ ../../gamedata/configs/weapons/w_ak74.ltx	2023-07-22 18:41:14.146334145 +0300
+@@ -119,7 +119,7 @@
+ PDM_disp_crouch_no_acc	= 1.0
+ 
+ ; ttc
+-hit_power            = 0.4, 0.4, 0.4, 0.4
++hit_power            = 1.0, 1.0, 1.0, 1.0
+ hit_impulse          = 100    ; size of physic impulse by bullet
+ hit_type             = fire_wound            ; [] type of the wound
+ 
+@@ -172,8 +172,8 @@
+ scope_x                 = 47                 ; offset in inventory icon
+ scope_y                 = 0
+ silencer_name           = wpn_addon_silencer    ; section name for the attachable silencer
+-silencer_x              = 224                ; offset in inventory icon
+-silencer_y              = 13
++silencer_x              = 219                ; offset in inventory icon
++silencer_y              = 10
+ grenade_launcher_name   = wpn_addon_grenade_launcher
+ grenade_launcher_x      = 126
+ grenade_launcher_y      = 24
+@@ -191,7 +191,7 @@
+ 
+ 
+ ;��������� ��� ���������
+-silencer_hit_power      = 0.55, 0.55, 0.55, 0.55
++silencer_hit_power      = 0.78, 0.78, 0.78, 0.78
+ silencer_hit_impulse    = 120
+ silencer_fire_distance  = 250
+ silencer_bullet_speed   = 600
+diff -bur ./configs/weapons/w_ak74u.ltx ../../gamedata/configs/weapons/w_ak74u.ltx
+--- ./configs/weapons/w_ak74u.ltx	2023-07-23 18:53:46.263291620 +0300
++++ ../../gamedata/configs/weapons/w_ak74u.ltx	2023-07-20 22:26:02.621179962 +0300
+@@ -116,7 +116,7 @@
+ PDM_disp_crouch_no_acc		= 1.0
+ 
+ ; ttc
+-hit_power            = 0.35, 0.35, 0.35, 0.35
++hit_power            = 0.84, 0.84, 0.84, 0.84
+ hit_impulse          = 100    ; size of physic impulse by bullet
+ hit_type             = fire_wound            ; [] type of the wound
+ 
+@@ -134,7 +134,7 @@
+ use_aim_bullet          = true                ;�������������� �� ������ ������ ����
+ time_to_aim             = 1.0
+ 
+-silencer_hit_power       		= 0.55, 0.55, 0.55, 0.55
++silencer_hit_power       		= 0.78, 0.78, 0.78, 0.78
+ silencer_hit_impulse	 		= 120
+ silencer_fire_distance   		= 250
+ silencer_bullet_speed	 		= 600
+diff -bur ./configs/weapons/w_beretta.ltx ../../gamedata/configs/weapons/w_beretta.ltx
+--- ./configs/weapons/w_beretta.ltx	2023-07-23 18:53:46.263291620 +0300
++++ ../../gamedata/configs/weapons/w_beretta.ltx	2023-07-20 22:37:37.132896356 +0300
+@@ -78,7 +78,7 @@
+ 
+ ;-------------------------------------------------------------------------------
+ ; ttc
+-hit_power           		= 0.5, 0.5, 0.5, 0.5
++hit_power           		= 1.0, 1.0, 1.0, 1.0
+ hit_impulse	 		 		= 75
+ hit_type 					= fire_wound
+ 
+@@ -102,7 +102,7 @@
+ rpm_empty_click 	 		= 200
+ ; end ttc
+ 
+-silencer_hit_power      	= 0.52
++silencer_hit_power      	= 0.78
+ silencer_hit_impulse	 	= 105
+ silencer_fire_distance  	= 100
+ silencer_bullet_speed		= 240
+diff -bur ./configs/weapons/w_colt1911.ltx ../../gamedata/configs/weapons/w_colt1911.ltx
+--- ./configs/weapons/w_colt1911.ltx	2023-07-23 18:53:46.263291620 +0300
++++ ../../gamedata/configs/weapons/w_colt1911.ltx	2023-07-20 22:36:57.444912563 +0300
+@@ -80,7 +80,7 @@
+ condition_shot_dec			= 0.0002 ;���������� ������ ��� ������ ��������
+ ;-------------------------------------------------------------------------------
+ ; ttc
+-hit_power           		= 0.5, 0.5, 0.5, 0.5
++hit_power           		= 1.0, 1.0, 1.0, 1.0
+ hit_impulse		 			= 75
+ hit_type 					= fire_wound
+ 
+@@ -104,7 +104,7 @@
+ rpm_empty_click      		= 250
+ ; end ttc
+ 
+-silencer_hit_power      	= 0.52
++silencer_hit_power      	= 0.78
+ silencer_hit_impulse	 	= 105
+ silencer_fire_distance  	= 100
+ silencer_bullet_speed		= 240
+diff -bur ./configs/weapons/w_desert_eagle.ltx ../../gamedata/configs/weapons/w_desert_eagle.ltx
+--- ./configs/weapons/w_desert_eagle.ltx	2023-07-23 18:53:46.263291620 +0300
++++ ../../gamedata/configs/weapons/w_desert_eagle.ltx	2023-07-20 22:36:33.900922177 +0300
+@@ -79,7 +79,7 @@
+ 
+ ;-------------------------------------------------------------------------------
+ ; ttc
+-hit_power           			= 0.55, 0.55, 0.55, 0.55
++hit_power           			= 1.0, 1.0, 1.0, 1.0
+ hit_impulse	 		 			= 75
+ hit_type 						= fire_wound
+ 
+@@ -103,7 +103,7 @@
+ rpm_empty_click 	 		= 200
+ ; end ttc
+ 
+-silencer_hit_power      	= 0.57
++silencer_hit_power      	= 0.78
+ silencer_hit_impulse	 		= 60
+ silencer_fire_distance  	= 100
+ silencer_bullet_speed		= 250
+diff -bur ./configs/weapons/weapons.ltx ../../gamedata/configs/weapons/weapons.ltx
+--- ./configs/weapons/weapons.ltx	2023-07-23 18:54:00.107271378 +0300
++++ ../../gamedata/configs/weapons/weapons.ltx	2023-07-22 00:51:24.219979928 +0300
+@@ -157,7 +157,7 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1
++k_hit			= 1.38
+ k_impulse		= 1
+ k_pierce		= 0.1
+ k_ap			= 0.1
+@@ -193,11 +193,11 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1.1
++k_hit			= 1.86
+ k_impulse		= 1
+ k_pierce		= 0.1
+ k_ap			= 0.1
+-impair			= 1
++impair			= 1.22
+ buck_shot		= 1
+ tracer			= on
+ wm_size         = 0.05
+@@ -229,11 +229,11 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1.1
++k_hit			= 1.86
+ k_impulse		= 1
+ k_pierce		= 0.1
+ k_ap			= 0.1
+-impair			= 1
++impair			= 1.22
+ buck_shot		= 1
+ tracer			= on
+ wm_size         = 0.05
+@@ -266,7 +266,7 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1
++k_hit			= 1.64
+ k_impulse		= 1
+ k_pierce		= 0.1
+ k_ap			= 0.1
+@@ -302,11 +302,11 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1.1
++k_hit			= 1.68
+ k_impulse		= 1
+ k_pierce		= 0.1
+ k_ap			= 0.1
+-impair			= 1
++impair			= 1.22
+ buck_shot		= 1
+ tracer			= on
+ wm_size         = 0.05
+@@ -338,7 +338,7 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1
++k_hit			= 1.68
+ k_impulse		= 1
+ k_pierce		= 0.1
+ k_ap			= 0.1
+@@ -373,11 +373,11 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1.2
++k_hit			= 2.05
+ k_impulse		= 1
+ k_pierce		= 0.1
+ k_ap			= 0.1
+-impair			= 1
++impair			= 1.22
+ buck_shot		= 1
+ tracer			= off
+ wm_size         = 0.05
+@@ -410,11 +410,11 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1
++k_hit			= 4.85
+ k_impulse		= 1
+ k_pierce		= 0.6
+ k_ap			= 0.6
+-impair			= 1
++impair			= 1.22
+ buck_shot		= 1
+ tracer			= on
+ wm_size         = 0.05
+@@ -445,7 +445,7 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 0.7
++k_hit			= 4.67
+ k_impulse		= 1
+ k_pierce		= 0.8
+ k_ap			= 0.8
+@@ -481,11 +481,11 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1
++k_hit			= 5.5
+ k_impulse		= 1
+ k_pierce		= 0.6
+ k_ap			= 0.6
+-impair			= 1
++impair			= 1.22
+ buck_shot		= 1
+ tracer			= on
+ wm_size         = 0.05
+@@ -516,7 +516,7 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 0.7
++k_hit			= 5.28
+ k_impulse		= 1
+ k_pierce		= 0.8
+ k_ap			= 0.8
+@@ -587,7 +587,7 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1
++k_hit			= 11.17
+ k_impulse		= 1
+ k_pierce		= 0.8
+ k_ap			= 0.8
+@@ -622,7 +622,7 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1
++k_hit			= 11.17
+ k_impulse		= 1
+ k_pierce		= 0.8
+ k_ap			= 0.8
+@@ -657,7 +657,7 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1
++k_hit			= 11.17
+ k_impulse		= 1
+ k_pierce		= 0.8
+ k_ap			= 0.8
+@@ -766,11 +766,11 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1.5
++k_hit			= 2.72
+ k_impulse		= 1
+ k_pierce		= 0.6
+ k_ap			= 0.6
+-impair			= 1
++impair			= 1.22
+ buck_shot		= 1
+ tracer			= on
+ wm_size         = 0.05
+@@ -801,7 +801,7 @@
+ 
+ k_dist			= 1
+ k_disp			= 1
+-k_hit			= 1.3
++k_hit			= 2.32
+ k_impulse		= 1
+ k_pierce		= 0.9
+ k_ap			= 0.9
+@@ -836,7 +836,7 @@
+ 
+ k_dist			= 1
+ k_disp			= 0.5
+-k_hit			= 1.5
++k_hit			= 2.32
+ k_impulse		= 1
+ k_pierce		= 0.8
+ k_ap			= 0.8
+diff -bur ./configs/weapons/w_f1.ltx ../../gamedata/configs/weapons/w_f1.ltx
+--- ./configs/weapons/w_f1.ltx	2023-07-23 18:53:46.263291620 +0300
++++ ../../gamedata/configs/weapons/w_f1.ltx	2023-07-20 22:40:17.236830977 +0300
+@@ -48,8 +48,8 @@
+ ;delete
+ blast_impulse_factor	 = 1
+ 
+-frags					= 12
+-frags_r					= 20
++frags					= 50
++frags_r					= 30
+ frag_hit				= 0.50
+ frag_hit_impulse		= 50
+ 
+diff -bur ./configs/weapons/w_fn2000.ltx ../../gamedata/configs/weapons/w_fn2000.ltx
+--- ./configs/weapons/w_fn2000.ltx	2023-07-23 18:53:46.263291620 +0300
++++ ../../gamedata/configs/weapons/w_fn2000.ltx	2023-07-20 22:27:08.749152958 +0300
+@@ -116,7 +116,7 @@
+ PDM_disp_crouch_no_acc  = 1.0
+ 
+ ; ttc
+-hit_power					= 0.4, 0.4, 0.4, 0.4
++hit_power					= 1.0, 1.0, 1.0, 1.0
+ hit_impulse					= 100
+ hit_type						= fire_wound
+ 
+@@ -196,7 +196,7 @@
+ 
+ 
+ ;��������� ��� ���������
+-silencer_hit_power      = 0.55, 0.55, 0.55, 0.55
++silencer_hit_power      = 0.78, 0.78, 0.78, 0.78
+ silencer_hit_impulse    = 120
+ silencer_fire_distance  = 250
+ silencer_bullet_speed   = 600
+diff -bur ./configs/weapons/w_fort.ltx ../../gamedata/configs/weapons/w_fort.ltx
+--- ./configs/weapons/w_fort.ltx	2023-07-23 18:53:46.263291620 +0300
++++ ../../gamedata/configs/weapons/w_fort.ltx	2023-07-20 22:20:37.461312741 +0300
+@@ -79,7 +79,7 @@
+ 
+ ;-------------------------------------------------------------------------------
+ ; ttc
+-hit_power           		= 0.5, 0.5, 0.5, 0.5
++hit_power           		= 1.0, 1.0, 1.0, 1.0
+ hit_impulse	 		 		= 75
+ hit_type 					= fire_wound
+ 
+@@ -103,7 +103,7 @@
+ rpm_empty_click 	 		= 200
+ ; end ttc
+ 
+-silencer_hit_power      	= 0.55
++silencer_hit_power      	= 0.78
+ silencer_hit_impulse	 	= 90
+ silencer_fire_distance  	= 100
+ silencer_bullet_speed		= 240
+diff -bur ./configs/weapons/w_g36.ltx ../../gamedata/configs/weapons/w_g36.ltx
+--- ./configs/weapons/w_g36.ltx	2023-07-23 18:54:00.103271384 +0300
++++ ../../gamedata/configs/weapons/w_g36.ltx	2023-07-20 22:19:55.941329696 +0300
+@@ -19,7 +19,7 @@
+ control_inertion_factor = 1.0
+ 
+ ;---DOF-------------------------------------------------------------------------
+-;zoom_dof					= 0.5, 1.0, 180
++;zoom_dof					= g36, 1.0, 180
+ reload_dof					= 0.0, 0.5, 5, 1.7
+ ;-------------------------------------------------------------------------------
+ 
+@@ -114,7 +114,7 @@
+ PDM_disp_crouch_no_acc  = 1.0
+ 
+ ; ttc
+-hit_power               = 0.4, 0.4, 0.4, 0.4
++hit_power               = 1.0, 1.0, 1.0, 1.0
+ hit_impulse             = 100
+ hit_type				= fire_wound
+ 
+@@ -186,7 +186,7 @@
+ 
+ 
+ ;��������� ��� ���������
+-silencer_hit_power      = 0.55, 0.55, 0.55, 0.55
++silencer_hit_power      = 0.78, 0.78, 0.78, 0.78
+ silencer_hit_impulse    = 85
+ silencer_fire_distance  = 250
+ silencer_bullet_speed   = 600
+diff -bur ./configs/weapons/w_groza.ltx ../../gamedata/configs/weapons/w_groza.ltx
+--- ./configs/weapons/w_groza.ltx	2023-07-23 18:54:00.103271384 +0300
++++ ../../gamedata/configs/weapons/w_groza.ltx	2023-07-20 22:27:55.153134009 +0300
+@@ -113,7 +113,7 @@
+ PDM_disp_crouch_no_acc  = 1.0
+ 
+ ; ttc
+-hit_power				= 0.4, 0.4, 0.4, 0.4
++hit_power				= 1.0, 1.0, 1.0, 1.0
+ hit_impulse				= 100
+ hit_type				= fire_wound
+ 
+@@ -191,7 +191,7 @@
+ snd_bore		= weapons\groza_bore
+ 
+ ;��������� ��� ���������
+-silencer_hit_power      = 0.55, 0.55, 0.55, 0.55
++silencer_hit_power      = 0.78, 0.78, 0.78, 0.78
+ silencer_hit_impulse    = 120
+ silencer_fire_distance  = 250
+ silencer_bullet_speed   = 600
+diff -bur ./configs/weapons/w_hpsa.ltx ../../gamedata/configs/weapons/w_hpsa.ltx
+--- ./configs/weapons/w_hpsa.ltx	2023-07-23 18:53:46.263291620 +0300
++++ ../../gamedata/configs/weapons/w_hpsa.ltx	2023-07-20 22:28:26.377121259 +0300
+@@ -79,7 +79,7 @@
+ 
+ ;-------------------------------------------------------------------------------
+ ; ttc
+-hit_power           		= 0.5, 0.5, 0.5, 0.5
++hit_power           		= 1.0, 1.0, 1.0, 1.0
+ hit_impulse	 		 		= 75
+ hit_type 					= fire_wound
+ 
+@@ -103,7 +103,7 @@
+ rpm_empty_click 	 		= 250
+ ; end ttc
+ 
+-silencer_hit_power      	= 0.7
++silencer_hit_power      	= 0.78
+ silencer_hit_impulse	 	= 60
+ silencer_fire_distance  	= 100
+ silencer_bullet_speed		= 230
+diff -bur ./configs/weapons/w_l85.ltx ../../gamedata/configs/weapons/w_l85.ltx
+--- ./configs/weapons/w_l85.ltx	2023-07-23 18:53:46.263291620 +0300
++++ ../../gamedata/configs/weapons/w_l85.ltx	2023-07-20 22:28:59.993107531 +0300
+@@ -115,7 +115,7 @@
+ PDM_disp_crouch_no_acc  = 1.0
+ 
+ ; ttc
+-hit_power               = 0.4, 0.4, 0.4, 0.4
++hit_power               = 1.0, 1.0, 1.0, 1.0
+ hit_impulse             = 100
+ hit_type				= fire_wound
+ rpm                     = 650
+@@ -189,7 +189,7 @@
+ snd_switch					= weapons\groza_switch, 1.0, 0.5
+ 
+ ;��������� ��� ���������
+-silencer_hit_power      = 0.55, 0.55, 0.55, 0.55
++silencer_hit_power      = 0.78, 0.78, 0.78, 0.78
+ silencer_hit_impulse    = 120
+ silencer_fire_distance  = 250
+ silencer_bullet_speed   = 600
+diff -bur ./configs/weapons/w_lr300.ltx ../../gamedata/configs/weapons/w_lr300.ltx
+--- ./configs/weapons/w_lr300.ltx	2023-07-23 18:53:46.267291614 +0300
++++ ../../gamedata/configs/weapons/w_lr300.ltx	2023-07-20 22:29:41.613090536 +0300
+@@ -115,7 +115,7 @@
+ PDM_disp_crouch_no_acc 	= 1.0
+ 
+ ; ttc
+-hit_power         = 0.35, 0.35, 0.35, 0.35
++hit_power         = 1.0, 1.0, 1.0, 1.0
+ hit_impulse       = 100
+ hit_type          = fire_wound
+ 
+@@ -189,7 +189,7 @@
+ 
+ 
+ ;��������� ��� ���������
+-silencer_hit_power      = 0.55, 0.55, 0.55, 0.55
++silencer_hit_power      = 0.78, 0.78, 0.78, 0.78
+ silencer_hit_impulse    = 120
+ silencer_fire_distance  = 250
+ silencer_bullet_speed   = 600
+diff -bur ./configs/weapons/w_mp5.ltx ../../gamedata/configs/weapons/w_mp5.ltx
+--- ./configs/weapons/w_mp5.ltx	2023-07-23 18:53:46.267291614 +0300
++++ ../../gamedata/configs/weapons/w_mp5.ltx	2023-07-22 18:34:04.960362373 +0300
+@@ -115,7 +115,7 @@
+ PDM_disp_crouch_no_acc  = 1.0
+ 
+ ; ttc
+-hit_power            = 0.5, 0.5, 0.5, 0.5
++hit_power            = 1.0, 1.0, 1.0, 1.0
+ hit_impulse          = 100    ; size of physic impulse by bullet
+ hit_type             = fire_wound            ; [] type of the wound
+ 
+@@ -167,7 +167,7 @@
+ scope_x              	= 47                 ; offset in inventory icon
+ scope_y                 = 0
+ silencer_name           = wpn_addon_silencer    ; section name for the attachable silencer
+-silencer_x              = 130 ;218                ; offset in inventory icon
++silencer_x              = 125 ;218                ; offset in inventory icon
+ silencer_y              = -13
+ grenade_launcher_name   = wpn_addon_grenade_launcher; section name for the attachable grenade launcher
+ grenade_launcher_x      = 126                ; offset in inventory icon
+@@ -187,7 +187,7 @@
+ snd_bore1				= weapons\draw_silent
+ 
+ ;��������� ��� ���������
+-silencer_hit_power      = 0.55, 0.55, 0.55, 0.55
++silencer_hit_power      = 0.78, 0.78, 0.78, 0.78
+ silencer_hit_impulse    = 120
+ silencer_fire_distance  = 250
+ silencer_bullet_speed   = 600
+diff -bur ./configs/weapons/w_pb.ltx ../../gamedata/configs/weapons/w_pb.ltx
+--- ./configs/weapons/w_pb.ltx	2023-07-23 18:53:46.267291614 +0300
++++ ../../gamedata/configs/weapons/w_pb.ltx	2023-07-20 22:31:57.221035160 +0300
+@@ -78,7 +78,7 @@
+ 
+ ;-------------------------------------------------------------------------------
+ ; ttc
+-hit_power           		= 0.5, 0.5, 0.5, 0.5
++hit_power           		= 0.6, 0.6, 0.6, 0.6
+ hit_impulse	 		 		= 80
+ hit_type 					= fire_wound
+ 
+@@ -102,7 +102,7 @@
+ rpm_empty_click 	 		= 200
+ ; end ttc
+ 
+-silencer_hit_power      	= 0.52
++silencer_hit_power      	= 0.6
+ silencer_hit_impulse	 	= 105
+ silencer_fire_distance  	= 100
+ silencer_bullet_speed		= 240
+diff -bur ./configs/weapons/w_pm.ltx ../../gamedata/configs/weapons/w_pm.ltx
+--- ./configs/weapons/w_pm.ltx	2023-07-23 18:53:46.267291614 +0300
++++ ../../gamedata/configs/weapons/w_pm.ltx	2023-07-20 22:32:32.001020958 +0300
+@@ -78,7 +78,7 @@
+ 
+ ;-------------------------------------------------------------------------------
+ ; ttc
+-hit_power           		= 0.5, 0.5, 0.5, 0.5
++hit_power           		= 1.0, 1.0, 1.0, 1.0
+ hit_impulse	 		 		= 75
+ hit_type 					= fire_wound
+ 
+@@ -102,7 +102,7 @@
+ rpm_empty_click 	 	= 200
+ ; end ttc
+ 
+-silencer_hit_power      	= 0.50
++silencer_hit_power      	= 0.78
+ silencer_hit_impulse	 	= 80
+ silencer_fire_distance  	= 100
+ silencer_bullet_speed		= 220
+diff -bur ./configs/weapons/w_sig220.ltx ../../gamedata/configs/weapons/w_sig220.ltx
+--- ./configs/weapons/w_sig220.ltx	2023-07-23 18:53:46.267291614 +0300
++++ ../../gamedata/configs/weapons/w_sig220.ltx	2023-07-20 22:32:54.845011629 +0300
+@@ -79,7 +79,7 @@
+ 
+ ;-------------------------------------------------------------------------------
+ ; ttc
+-hit_power           		= 0.5, 0.5, 0.5, 0.5
++hit_power           		= 1.0, 1.0, 1.0, 1.0
+ hit_impulse	 		 		= 100
+ hit_type 					= fire_wound
+ 
+@@ -103,7 +103,7 @@
+ rpm_empty_click 	 		= 250
+ ; end ttc
+ 
+-silencer_hit_power      	= 0.52
++silencer_hit_power      	= 0.78
+ silencer_hit_impulse	 		= 105
+ silencer_fire_distance  	= 100
+ silencer_bullet_speed		= 240
+diff -bur ./configs/weapons/w_sig550.ltx ../../gamedata/configs/weapons/w_sig550.ltx
+--- ./configs/weapons/w_sig550.ltx	2023-07-23 18:54:00.103271384 +0300
++++ ../../gamedata/configs/weapons/w_sig550.ltx	2023-07-20 22:33:29.508997474 +0300
+@@ -121,7 +121,7 @@
+ PDM_disp_crouch_no_acc  = 1.0
+ 
+ ; ttc
+-hit_power					= 0.45, 0.45, 0.45, 0.45
++hit_power					= 1.0, 1.0, 1.0, 1.0
+ hit_impulse					= 100
+ hit_type					= fire_wound
+ 
+@@ -192,7 +192,7 @@
+ 
+ 
+ ;��������� ��� ���������
+-silencer_hit_power      = 0.55, 0.55, 0.55, 0.55
++silencer_hit_power      = 0.78, 0.78, 0.78, 0.78
+ silencer_hit_impulse    = 120
+ silencer_fire_distance  = 250
+ silencer_bullet_speed   = 600
+diff -bur ./configs/weapons/w_usp45.ltx ../../gamedata/configs/weapons/w_usp45.ltx
+--- ./configs/weapons/w_usp45.ltx	2023-07-23 18:54:00.103271384 +0300
++++ ../../gamedata/configs/weapons/w_usp45.ltx	2023-07-20 22:34:25.316974685 +0300
+@@ -77,7 +77,7 @@
+ 
+ ;-------------------------------------------------------------------------------
+ ; ttc
+-hit_power           		= 0.5, 0.5, 0.5, 0.5
++hit_power           		= 1.0, 1.0, 1.0, 1.0
+ hit_impulse	 		 		= 100
+ hit_type 					= fire_wound
+ 
+@@ -101,7 +101,7 @@
+ rpm_empty_click 	 		= 250
+ ; end ttc
+ 
+-silencer_hit_power      	= 0.52
++silencer_hit_power      	= 0.78
+ silencer_hit_impulse	 	= 105
+ silencer_fire_distance  	= 100
+ silencer_bullet_speed		= 240
+diff -bur ./configs/weapons/w_val.ltx ../../gamedata/configs/weapons/w_val.ltx
+--- ./configs/weapons/w_val.ltx	2023-07-23 18:54:00.103271384 +0300
++++ ../../gamedata/configs/weapons/w_val.ltx	2023-07-20 22:34:59.076960899 +0300
+@@ -113,7 +113,7 @@
+ PDM_disp_crouch_no_acc  = 1.0
+ 
+ ; ttc
+-hit_power		= 0.35, 0.35, 0.35, 0.35
++hit_power		= 1.0, 1.0, 1.0, 1.0
+ hit_impulse		= 100
+ hit_type		= fire_wound
+ 
+@@ -191,7 +191,7 @@
+ 
+ 
+ ;��������� ��� ���������
+-silencer_hit_power      = 0.55, 0.55, 0.55, 0.55
++silencer_hit_power      = 0.78, 0.78, 0.78, 0.78
+ silencer_hit_impulse    = 120
+ silencer_fire_distance  = 250
+ silencer_bullet_speed   = 600
+diff -bur ./configs/weapons/w_vintorez.ltx ../../gamedata/configs/weapons/w_vintorez.ltx
+--- ./configs/weapons/w_vintorez.ltx	2023-07-23 18:54:00.103271384 +0300
++++ ../../gamedata/configs/weapons/w_vintorez.ltx	2023-07-20 22:35:34.396946476 +0300
+@@ -114,7 +114,7 @@
+ PDM_disp_crouch_no_acc  = 1.0
+ 
+ ; ttc
+-hit_power				= 0.35, 0.35, 0.35, 0.35
++hit_power				= 1.0, 1.0, 1.0, 1.0
+ hit_impulse				= 100
+ hit_type				= fire_wound
+ 
+@@ -193,7 +193,7 @@
+ 
+ 
+ ;��������� ��� ���������
+-silencer_hit_power      = 0.55, 0.55, 0.55, 0.55
++silencer_hit_power      = 1.0, 1.0, 1.0, 1.0
+ silencer_hit_impulse    = 120
+ silencer_fire_distance  = 250
+ silencer_bullet_speed   = 600
+diff -bur ./configs/weapons/w_walther.ltx ../../gamedata/configs/weapons/w_walther.ltx
+--- ./configs/weapons/w_walther.ltx	2023-07-23 18:54:00.103271384 +0300
++++ ../../gamedata/configs/weapons/w_walther.ltx	2023-07-20 22:36:03.192934717 +0300
+@@ -79,7 +79,7 @@
+ 
+ ;-------------------------------------------------------------------------------
+ ; ttc
+-hit_power           			= 0.5, 0.5, 0.5, 0.5
++hit_power           			= 1.0, 1.0, 1.0, 1.0
+ hit_impulse	 		 			= 75
+ hit_type 						= fire_wound
+ 
+@@ -103,7 +103,7 @@
+ rpm_empty_click 	 		= 300
+ ; end ttc
+ 
+-silencer_hit_power      	= 0.55
++silencer_hit_power      	= 0.78
+ silencer_hit_impulse	 	= 105
+ silencer_fire_distance  	= 100
+ silencer_bullet_speed		= 280
