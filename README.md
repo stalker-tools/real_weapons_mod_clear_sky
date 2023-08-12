@@ -91,14 +91,14 @@ Result: see media/NPC_and_weapons.htm
 
 ## Create Real Weapons mod
 
-### Create patch file `real_weapon.patch`:
+### Create patch file `real_weapons.patch`:
 ```sh
-diff -bur "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata_orig" "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata" > real_weapon.patch
+diff -bur "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata_orig" "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata" > real_weapons.patch
 ```
 
-To apply patch file `real_weapon.patch` to gamedata folder:
+To apply patch file `real_weapons.patch` to gamedata folder:
 ```sh
-patch --verbose --directory=./gamedata/ --strip=1 < real_weapon.patch
+patch --verbose --directory=./gamedata/ --strip=1 < real_weapons.patch
 ```
 
 ### Create mod zip file
