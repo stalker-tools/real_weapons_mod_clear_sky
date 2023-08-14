@@ -28,6 +28,8 @@ Look at graphs how unrealistic the ammo characteristics looks :astonished: ...
 
 Main ammo parameter is power impulse: `k_hit` coefficient, it expressed as `1 = 300 Joules`. `1 Joule = (m * v^2) / 2` SI unit of kinetic energy. So to get bullet kinetic energy we need know bullet speed and bullet mass. To get this manufacturer data sheet files or wiki used.
 
+`Damage = hit_power * k_hit`, see below tactical parameters.
+
 Ammo tactical parameters:
 * `k_hit` - bullet power coef
 * `k_ap` - bullet ability to break through armor
@@ -56,7 +58,22 @@ Weapon tactical parameters:
 * `misfire_condition_k` - misfire condition threshold
 * `condition_shot_dec` - wear increase for each shot
 
-`Damage = hit_power * k_hit`
+Common xray game engine parameters:
+* `class` - C++ class
+* `$prefetch` - preloading queue
+* `$spawn`, `$npc` - name and section for level disigner; option for level disigner
+* `min_radius`, `max_radius` - AI: weapon NPC usage distance range
+* `ef_main_weapon_type` - weapon main type: 0 pistol, 1 shotgun, 2 assault rifle, 3 rifle, 4 grenade launcher, 5 binocle
+* `ef_weapon_type` - weapon subtype: 0 binocle, 1 knife/bolt/rat, zombie, 2 cat/dog/flesh/snork, 3 bloodsucker/chimera/giant/pseudodog,
+  4 izlom, 5 pistol, 6 assault rifle, 7 rifle, 8 SVD/SVU/Gauss rifle/PKM machine gun, 9 grenade launcher, 10 grenade,
+  11 controller, 12 burer/poltergeist, 13..19 anomaly, teleport
+* `default_to_ruck` - false: weapon autoselect on free slot
+* `sprint_allowed` - true: can run with weapon
+* `control_inertion_factor` - weapon inertion
+* `weapon_class` - weapon class: assault_rifle, sniper_rifle, heavy_weapon (grenade launcher), shotgun
+* `holder_range_modifier`, `holder_fov_modifier` - AI: inrease eye_range/eye_fov for NPC for weapon in hands
+* `zoom_dof` - depth of field change on front sight aiming
+* `reload_dof` - depth of field change on reloading
 
 ## Create Real Weapons mod
 
