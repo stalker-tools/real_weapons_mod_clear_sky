@@ -46,6 +46,7 @@ Weapon tactical parameters:
 * `hit_impulse` - bullet to aim impulse
 * `hit_type` - damage type: fire_wound, explosion
 * `ammo_class` - ammo type list
+* `fire_distance`, `silencer_fire_distance` - max fire distance
 * `fire_dispersion_base` - base angle of dispersion, degrees
 * `cam_relax_speed`, `cam_relax_speed_ai` - return speed for player and AI
 * `cam_dispersion`, `cam_dispersion_inc` - each shoot dispersion increase, degree; `cam_dispersion` each shot increase
