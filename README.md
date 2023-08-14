@@ -61,7 +61,7 @@ Weapon tactical parameters:
 Common xray game engine parameters:
 * `class` - C++ class
 * `$prefetch` - preloading queue
-* `$spawn`, `$npc` - name and section for level disigner; option for level disigner
+* `$spawn`, `$npc` - name and section for level designer; option for level designer
 * `min_radius`, `max_radius` - AI: weapon NPC usage distance range
 * `ef_main_weapon_type` - weapon main type: 0 pistol, 1 shotgun, 2 assault rifle, 3 rifle, 4 grenade launcher, 5 binocle
 * `ef_weapon_type` - weapon subtype: 0 binocle, 1 knife/bolt/rat, zombie, 2 cat/dog/flesh/snork, 3 bloodsucker/chimera/giant/pseudodog,
@@ -70,7 +70,7 @@ Common xray game engine parameters:
 * `default_to_ruck` - false: weapon autoselect on free slot
 * `sprint_allowed` - true: can run with weapon
 * `control_inertion_factor` - weapon inertion
-* `weapon_class` - weapon class: assault_rifle, sniper_rifle, heavy_weapon (grenade launcher), shotgun
+* `weapon_class` - assault_rifle, sniper_rifle, heavy_weapon (grenade launcher), shotgun
 * `holder_range_modifier`, `holder_fov_modifier` - AI: inrease eye_range/eye_fov for NPC for weapon in hands
 * `zoom_dof` - depth of field change on front sight aiming
 * `reload_dof` - depth of field change on reloading
@@ -79,7 +79,7 @@ Common xray game engine parameters:
 
 ### Edit .ltx files
 
-Use python tools from **tools** repo to analyze and edit .ltx files. Manufacturer site datasheet (see links) used or wiki.
+Use python tools from **tools** repo to analyze and edit .ltx files. Manufacturer site datasheet (see links) used or wiki. Calculate kinetic energy and set `k_hit` for ammo.
 
 #### 9x18
 
