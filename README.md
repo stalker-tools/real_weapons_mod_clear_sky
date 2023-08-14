@@ -79,7 +79,70 @@ Common xray game engine parameters:
 
 ### Edit .ltx files
 
-Use python tools from **tools** repo.
+Use python tools from **tools** repo to analyze and edit .ltx files. Manufacturer site datasheet (see links) used or wiki.
+
+#### 9x18
+
+[7N25](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n25/)
+`480 m/s x 3.6 g = 415 J = 1.38`
+
+[7N21](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n21/)
+`455 m/s x 5.4 g = 559 J = 1.86`
+
+_PB_ pistol
+`hit_power = 290 m/s / 480 m/s = 0.6`
+
+#### 9x19
+
+`365 m/s x 7.45 g = 492 J = 1.64`
+
+[7N31](http://roe.ru/catalog/spetsialnye-sredstva/pistolety-pulemety/7n31/?ysclid=lka3r1txjf753431711)
+`575 m/s x 4.2 g = 694 J = 2.31`
+
+MP5SD (with silencer)
+`silencer_hit_power = 285 m/s / 365 m/s = 0.78`
+
+#### 11.43x23 / .45 ACP
+
+`260 m/s x 14.9 g = 504 J = 1.68`
+
+Note, `11.43x23 hydro` is not real.
+
+#### 5.45x39
+
+[7N10](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n10/)
+`880 m/s x 3.62 g = 1402 J = 4.67`
+
+7N22
+`890 m/s x 3.67 g = 1454 J = 4.85`
+
+_AKS74U_ riffle
+`hit_power = 735 m/s / 880 m/s = 0.84`
+
+#### 7.62x54
+
+[7N1](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n1/?ysclid=lka3f2ddgi944541407)
+`820 m/s x 9.9 g = 3352 J = 11.17`
+
+[7N14](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n14/?ysclid=lka3bhwj9k255399763)
+`820 m/s x 9.9 g = 3352 J = 11.17`
+
+#### 5.56x45
+
+`890 m/s x 4 g = 1584 J = 5.28`
+
+[RS 101](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/rs-101/)
+`920 m/s x 3.9 g = 1650 J = 5.5`
+
+#### 9x39
+
+[SP-5](http://roe.ru/catalog/spetsialnye-sredstva/avtomaty2/as/)
+`295 m/s x 16 g = 696 J = 2.32`
+
+PAB-9
+`310 m/s x 17 g = 817 J = 2.72`
+
+Surprize ! 9x39 is almost half power of 5.45x39. But it still better in buildings - no ricochets.
 
 ### Create patch file `real_weapons.patch`:
 ```sh
