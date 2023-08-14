@@ -22,7 +22,11 @@ python graph_tool.py -f "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamed
 ```
 Result: file NPC_and_weapons.htm (for example see _media/NPC_and_weapons.htm_ file).
 
-Look at graphs how unrealistic the ammo characteristics looks. Main ammo parameter is power impulse: `k_hit` coefficient it expressed as `1 = 300 Joules`. `1 Joule = (m * v^2) / 2` SI unit of kinetic energy. So to get bullet kinetic energy we need know bullet speed and bullet mass. To get this manufacturer data sheet files or wiki used.
+### Ammo parameters graphs analysis
+
+Look at graphs how unrealistic the ammo characteristics looks :astonished: ...
+
+Main ammo parameter is power impulse: `k_hit` coefficient, it expressed as `1 = 300 Joules`. `1 Joule = (m * v^2) / 2` SI unit of kinetic energy. So to get bullet kinetic energy we need know bullet speed and bullet mass. To get this manufacturer data sheet files or wiki used.
 
 ## Create Real Weapons mod
 
