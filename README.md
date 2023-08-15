@@ -4,6 +4,8 @@ Main purposes of this mod: weapons and ammos has real power, calculated from rea
 
 Clear Sky version: **1.5.10**
 
+[Run Clear Sky on Linux](https://github.com/stalker-tools/tools/blob/main/run_cs.md)
+
 ## Mod details
 
 * The Actor and NPC are roughly equal at the Master game level. But If you have gameplay problems - set game level to _Novice_ and back to you favorite game level after.
