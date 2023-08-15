@@ -13,7 +13,7 @@ Clear Sky version: **1.5.10**
 
 ## Analysis
 
-At first unpack origional _gamedata_ folder:
+At first unpack original _gamedata_ folder:
 * Unpack game files to gamedata folder. See [Unpack gamedata](https://github.com/stalker-tools/tools/blob/main/analysis_cs.md) page.
 * Copy original gamedata to `gamedata_orig`, for example. It used later to create .patch file.
 
