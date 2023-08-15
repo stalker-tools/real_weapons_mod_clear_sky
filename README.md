@@ -18,7 +18,7 @@ At first unpack original _gamedata_ folder:
 * Copy original gamedata to `gamedata_orig`, for example. It used later to create .patch file.
 
 ### Generate NPC and weapons analysis html file
-Use .ltx files analysis tools.
+Use [.ltx files analysis tools](https://github.com/stalker-tools/tools)
 ```sh
 python graph_tool.py -f "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata" --head "NPC and weapons" > NPC_and_weapons.htm
 ```
