@@ -67,7 +67,7 @@ Common xray game engine parameters:
 * `$prefetch` - preloading queue
 * `$spawn`, `$npc` - name and section for level designer; option for level designer
 * `min_radius`, `max_radius` - AI: weapon NPC usage distance range
-* `ef_main_weapon_type` - weapon main type: 0 pistol, 1 shotgun, 2 assault rifle, 3 rifle, 4 grenade launcher, 5 binocle
+* `ef_main_weapon_type` - 0 pistol, 1 shotgun, 2 assault rifle, 3 rifle, 4 grenade launcher, 5 binocle
 * `ef_weapon_type` - weapon subtype: 0 binocle, 1 knife/bolt/rat, zombie, 2 cat/dog/flesh/snork, 3 bloodsucker/chimera/giant/pseudodog,
   4 izlom, 5 pistol, 6 assault rifle, 7 rifle, 8 SVD/SVU/Gauss rifle/PKM machine gun, 9 grenade launcher, 10 grenade,
   11 controller, 12 burer/poltergeist, 13..19 anomaly, teleport
