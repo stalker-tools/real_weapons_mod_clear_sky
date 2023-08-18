@@ -29,6 +29,11 @@ Result: file NPC_and_weapons.htm (for example see _media/NPC_and_weapons.htm_ fi
 Look at graphs how unrealistic the ammo characteristics looks :astonished: ...
 5.45x39 and 5.56x45 ammo power five times less than real !
 
+Real parameters:
+
+![NPC hit_fraction](media/npc_hit_fraction.png)
+![Ammo k_hit](media/ammo_k_hit.png)
+
 Main ammo parameter is power impulse: `k_hit` coefficient, it expressed as `1 = 300 Joules`. `1 Joule = (m * v^2) / 2` SI unit of kinetic energy. So to get bullet kinetic energy we need know bullet speed and bullet mass. To get this manufacturer data sheet files or wiki used.
 
 `Damage = hit_power * k_hit`, see below tactical parameters.
