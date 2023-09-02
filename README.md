@@ -172,6 +172,9 @@ Surprize ! 9x39 is almost half power of 5.45x39. But it still better in building
 `430 m/s x 1.26 g = 117 J = 0.39`
 `buck_shot = 34 g / 1.26 g = 27`
 
+_rifles_ fire_distance: 35 m (buckshot), 50 m (bullet).
+`k_dist = 0.7`
+
 ### Create patch file `real_weapons.patch`:
 ```sh
 diff -bur "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata_orig" "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata" > real_weapons.patch
