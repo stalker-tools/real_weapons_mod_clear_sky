@@ -166,6 +166,12 @@ PAB-9
 
 Surprize ! 9x39 is almost half power of 5.45x39. But it still better in buildings - no ricochets.
 
+* #### 12x70
+
+[buckshot 6.2 мм](https://techcrim.ru/?page_id=16396)
+`one shot = 430 m/s x 1.26 g = 117 J = 0.39`
+`number of shots = 34 g / 1.26 g = 27`
+
 ### Create patch file `real_weapons.patch`:
 ```sh
 diff -bur "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata_orig" "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata" > real_weapons.patch
