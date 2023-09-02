@@ -128,6 +128,11 @@ Note, `11.43x23 hydro` is not real.
 _AKS74U_ riffle
 `hit_power = 735 m/s / 880 m/s = 0.84`
 
+* #### 7.62x51
+
+P80/1 (FN Herstal)
+`820 m/s x 9.8 g = 3319 J = 11.1`
+
 * #### 7.62x54
 
 [7N1](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n1/?ysclid=lka3f2ddgi944541407)
@@ -135,6 +140,14 @@ _AKS74U_ riffle
 
 [7N14](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n14/?ysclid=lka3bhwj9k255399763)
 `820 m/s x 9.9 g = 3352 J = 11.17`
+
+* #### 7.62x25
+
+`440 m/s x 5.5 g = 532 J = 1.78`
+
+* #### 7.62x39
+
+`735 m/s x 7.9 g = 2134 J = 7.1`
 
 * #### 5.56x45
 
