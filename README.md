@@ -168,12 +168,11 @@ Surprize ! 9x39 is almost half power of 5.45x39. But it still better in building
 
 * #### 12x70
 
-[buckshot 6.2 мм](https://techcrim.ru/?page_id=16396)
+[buckshot 6.2 мм 34 g](https://techcrim.ru/?page_id=16396)
 `430 m/s x 1.26 g = 117 J = 0.39`
 `buck_shot = 34 g / 1.26 g = 27`
 
-_rifles_ fire_distance: 35 m (buckshot), 50 m (bullet).
-`k_dist = 0.7`
+_rifles_ fire_distance: 35 m (buckshot) `k_dist = 0.7`, 50 m (bullet) `k_dist = 1`.
 
 ### Create patch file `real_weapons.patch`:
 ```sh
