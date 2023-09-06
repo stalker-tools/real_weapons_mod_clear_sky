@@ -90,6 +90,9 @@ Common xray game engine parameters:
 
 Use python tools from **tools** repo to analyze and edit .ltx files. Manufacturer site datasheet (see links) used or wiki. Calculate kinetic energy and set `k_hit` for ammo.
 
+### **Ammo `k_hit` calculations with references:**
+Wikipedia used if no datasheet link.
+
 Abbreviations:
 
 APB - armor-piercing bullet
@@ -98,8 +101,6 @@ SCB - steel core bullet
 
 HPB - high penetration bullet
 
-### **Ammo `k_hit` calculations with references:**
-Wikipedia used if no datasheet link.
 
 * #### 5.45x39
 
@@ -136,7 +137,7 @@ P80/1 (FN Herstal)
 * #### 7.62x54
 
 [7N1](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n1/)
-`820 m/s x 9.9 g = 3352 J = 11.17`
+`820 m/s x 9.9 g = 3352 J = 11.17`copper-plated shot
 
 [7N14](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n14/) APB
 `820 m/s x 9.9 g = 3352 J = 11.17`
@@ -183,7 +184,7 @@ Note, `11.43x23 hydro` is not real.
 
 * #### 12x70
 
-[Express Kupra buckshot 6.5 мм 34 g](https://techcrim.ru/?page_id=16396)
+[Express Kupra buckshot 6.5 мм 34 g](https://techcrim.ru/?page_id=16396) Copper-plated shot
 `430 m/s x 1.26 g = 117 J = 0.39`
 `buck_shot = 34 g / 1.26 g = 27`
 
