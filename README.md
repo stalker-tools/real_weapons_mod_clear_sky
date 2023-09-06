@@ -150,7 +150,7 @@ P80/1 (FN Herstal)
 `455 m/s x 5.4 g = 559 J = 1.86`
 
 _PB_ pistol
-`hit_power = 290 m/s / 480 m/s = 0.6`
+`hit_power = 290 m/s / 303 m/s = 0.96`
 
 * #### 9x19
 
