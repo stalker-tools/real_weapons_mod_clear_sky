@@ -185,6 +185,7 @@ Note, `11.43x23 hydro` is not real.
 * #### 12x70
 
 [Express Kupra buckshot 6.5 мм 34 g](https://techcrim.ru/?page_id=16396) Copper-plated shot
+
 `430 m/s x 1.26 g = 117 J = 0.39`
 `buck_shot = 34 g / 1.26 g = 27`
 
