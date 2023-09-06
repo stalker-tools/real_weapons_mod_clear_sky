@@ -111,7 +111,7 @@ HPB - high penetration bullet
 `890 m/s x 3.67 g = 1454 J = 4.85`
 
 _AKS74U_ riffle
-`hit_power = 735 m/s / 880 m/s = 0.84`
+`hit_power = 735 m/s x 3.62 g = 978 J / 1402 J = 0.7`
 
 * #### 5.56x45
 
@@ -154,17 +154,17 @@ P80/1 (FN Herstal)
 `455 m/s x 5.4 g = 559 J = 1.86`
 
 _PB_ pistol
-`hit_power = 290 m/s / 303 m/s = 0.96`
+`hit_power = 290 m/s x 6.1 g = 257 J / 280 J = 0.92`
 
 * #### 9x19
 
-`365 m/s x 7.45 g = 492 J = 1.64`
+`365 m/s x 7.5 g = 500 J = 1.67`
 
 [7N31](http://roe.ru/catalog/spetsialnye-sredstva/pistolety-pulemety/7n31/?ysclid=lka3r1txjf753431711) APB
 `575 m/s x 4.2 g = 694 J = 2.31`
 
 MP5SD (with silencer)
-`silencer_hit_power = 285 m/s / 365 m/s = 0.78`
+`silencer_hit_power = 285 m/s x 7.45 g = 305 J / 500 J = 0.61`
 
 * #### 9x39
 
