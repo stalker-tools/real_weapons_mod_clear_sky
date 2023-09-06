@@ -137,7 +137,7 @@ P80/1 (FN Herstal)
 * #### 7.62x54
 
 [7N1](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n1/)
-`820 m/s x 9.9 g = 3352 J = 11.17`copper-plated shot
+`820 m/s x 9.9 g = 3352 J = 11.17`
 
 [7N14](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n14/) APB
 `820 m/s x 9.9 g = 3352 J = 11.17`
