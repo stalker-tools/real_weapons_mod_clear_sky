@@ -93,17 +93,20 @@ Use python tools from **tools** repo to analyze and edit .ltx files. Manufacture
 Abbreviations:
 
 APB - armor-piercing bullet
+
 SCB - steel core bullet
+
+HPB - high penetration bullet
 
 ### **Ammo `k_hit` calculations with references:**
 Wikipedia used if no datasheet link.
 
 * #### 5.45x39
 
-[7N10](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n10/)
+[7N10](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n10/) HPB
 `880 m/s x 3.62 g = 1402 J = 4.67`
 
-7N22
+7N22 APB
 `890 m/s x 3.67 g = 1454 J = 4.85`
 
 _AKS74U_ riffle
@@ -113,7 +116,7 @@ _AKS74U_ riffle
 
 `890 m/s x 4 g = 1584 J = 5.28`
 
-[RS 101](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/rs-101/)
+[RS 101](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/rs-101/) HPB
 `920 m/s x 3.9 g = 1650 J = 5.5`
 
 * #### 7.62x25
