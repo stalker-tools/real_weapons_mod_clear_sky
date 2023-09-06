@@ -164,7 +164,7 @@ _PB_ pistol
 `575 m/s x 4.2 g = 694 J = 2.31`
 
 MP5SD (with silencer)
-`silencer_hit_power = 285 m/s x 7.45 g = 305 J / 500 J = 0.61`
+`silencer_hit_power = 285 m/s x 7.5 g = 305 J / 500 J = 0.61`
 
 * #### 9x39
 
