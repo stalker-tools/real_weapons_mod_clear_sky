@@ -90,32 +90,13 @@ Common xray game engine parameters:
 
 Use python tools from **tools** repo to analyze and edit .ltx files. Manufacturer site datasheet (see links) used or wiki. Calculate kinetic energy and set `k_hit` for ammo.
 
-* #### 9x18
+Abbreviations:
 
-[7N25](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n25/)
-`480 m/s x 3.6 g = 415 J = 1.38`
+APB - armor-piercing bullet
+SCB - steel core bullet
 
-[7N21](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n21/)
-`455 m/s x 5.4 g = 559 J = 1.86`
-
-_PB_ pistol
-`hit_power = 290 m/s / 480 m/s = 0.6`
-
-* #### 9x19
-
-`365 m/s x 7.45 g = 492 J = 1.64`
-
-[7N31](http://roe.ru/catalog/spetsialnye-sredstva/pistolety-pulemety/7n31/?ysclid=lka3r1txjf753431711)
-`575 m/s x 4.2 g = 694 J = 2.31`
-
-MP5SD (with silencer)
-`silencer_hit_power = 285 m/s / 365 m/s = 0.78`
-
-* #### 11.43x23 / .45 ACP
-
-`260 m/s x 14.9 g = 504 J = 1.68`
-
-Note, `11.43x23 hydro` is not real.
+### **Ammo `k_hit` calculations with references:**
+Wikipedia used if no datasheet link.
 
 * #### 5.45x39
 
@@ -128,27 +109,6 @@ Note, `11.43x23 hydro` is not real.
 _AKS74U_ riffle
 `hit_power = 735 m/s / 880 m/s = 0.84`
 
-* #### 7.62x51
-
-P80/1 (FN Herstal)
-`820 m/s x 9.8 g = 3319 J = 11.1`
-
-* #### 7.62x54
-
-[7N1](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n1/?ysclid=lka3f2ddgi944541407)
-`820 m/s x 9.9 g = 3352 J = 11.17`
-
-[7N14](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n14/?ysclid=lka3bhwj9k255399763)
-`820 m/s x 9.9 g = 3352 J = 11.17`
-
-* #### 7.62x25
-
-`440 m/s x 5.5 g = 532 J = 1.78`
-
-* #### 7.62x39
-
-`735 m/s x 7.9 g = 2134 J = 7.1`
-
 * #### 5.56x45
 
 `890 m/s x 4 g = 1584 J = 5.28`
@@ -156,19 +116,71 @@ P80/1 (FN Herstal)
 [RS 101](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/rs-101/)
 `920 m/s x 3.9 g = 1650 J = 5.5`
 
+* #### 7.62x25
+
+[57-N-134](https://www.kalashnikov.ru/medialibrary/6c0/24_30.pdf)
+`440 m/s x 5.5 g = 532 J = 1.78`
+
+* #### 7.62x39
+
+`735 m/s x 7.9 g = 2134 J = 7.1`
+
+* #### 7.62x51
+
+P80/1 (FN Herstal)
+`820 m/s x 9.8 g = 3319 J = 11.1`
+
+* #### 7.62x54
+
+[7N1](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n1/)
+`820 m/s x 9.9 g = 3352 J = 11.17`
+
+[7N14](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n14/) APB
+`820 m/s x 9.9 g = 3352 J = 11.17`
+
+* #### 9x18
+
+[57-N-181](https://www.kalashnikov.ru/medialibrary/6c0/24_30.pdf)
+`303 m/s x 6.1 g = 280 J = 0.93`
+
+[7N25](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n25/) APB
+`480 m/s x 3.6 g = 415 J = 1.38`
+
+[7N21](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n21/) SCB
+`455 m/s x 5.4 g = 559 J = 1.86`
+
+_PB_ pistol
+`hit_power = 290 m/s / 480 m/s = 0.6`
+
+* #### 9x19
+
+`365 m/s x 7.45 g = 492 J = 1.64`
+
+[7N31](http://roe.ru/catalog/spetsialnye-sredstva/pistolety-pulemety/7n31/?ysclid=lka3r1txjf753431711) APB
+`575 m/s x 4.2 g = 694 J = 2.31`
+
+MP5SD (with silencer)
+`silencer_hit_power = 285 m/s / 365 m/s = 0.78`
+
 * #### 9x39
 
-[SP-5](http://roe.ru/catalog/spetsialnye-sredstva/avtomaty2/as/)
+[SP-5](http://roe.ru/catalog/spetsialnye-sredstva/avtomaty2/as/) SCB
 `295 m/s x 16 g = 696 J = 2.32`
 
-PAB-9
+PAB-9 APB
 `310 m/s x 17 g = 817 J = 2.72`
 
 Surprize ! 9x39 is almost half power of 5.45x39. But it still better in buildings - no ricochets.
 
+* #### 11.43x23 / .45 ACP
+
+`260 m/s x 14.9 g = 504 J = 1.68`
+
+Note, `11.43x23 hydro` is not real.
+
 * #### 12x70
 
-[buckshot 6.2 мм 34 g](https://techcrim.ru/?page_id=16396)
+[Express Kupra buckshot 6.5 мм 34 g](https://techcrim.ru/?page_id=16396)
 `430 m/s x 1.26 g = 117 J = 0.39`
 `buck_shot = 34 g / 1.26 g = 27`
 
