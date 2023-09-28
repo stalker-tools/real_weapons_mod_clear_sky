@@ -115,7 +115,16 @@ _AKS74U_ riffle
 
 * #### 5.56x45
 
-`890 m/s x 4 g = 1584 J = 5.28`
+[556B](https://magtechammunition.com/products/ammunition/5-56x45mm-62gr-fmj/) FJM
+`940 m/s x 4 g = 1767 J = 5.89`
+
+| Range | Energy | Trajectory |
+|-------|--------|------------|
+| 100 m | 1767 J | 0 cm       |
+| 200 m | 1432 J | -13.8 cm   |
+| 300 m | 1150 J | -44.7 cm   |
+
+Test barrel lenght: 50.8 cm.
 
 [RS 101](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/rs-101/) HPB
 `920 m/s x 3.9 g = 1650 J = 5.5`
@@ -131,8 +140,16 @@ _AKS74U_ riffle
 
 * #### 7.62x51
 
-P80/1 (FN Herstal)
-`820 m/s x 9.8 g = 3319 J = 11.1`
+[762A](https://magtechammunition.com/products/ammunition/7-62x51mm-ball-mil-std/)
+`835 m/s x 9.52 g = 3319 J = 11.1`
+
+| Range | Energy | Trajectory |
+|-------|--------|------------|
+| 100 m | 2750 J | 0 cm       |
+| 200 m | 2262 J | -17 cm     |
+| 300 m | 1843 J | -54.8 cm   |
+
+Test barrel lenght: 56.2 cm.
 
 * #### 7.62x54
 
@@ -158,7 +175,15 @@ _PB_ pistol
 
 * #### 9x19
 
-`365 m/s x 7.5 g = 500 J = 1.67`
+[9A](https://magtechammunition.com/products/ammunition/9mm-luger-115gr-fmj-2/) FJM
+`346 m/s x 7.45 g = 446 J = 1.49`
+
+| Range | Energy | Trajectory |
+|-------|--------|------------|
+| 50 m  | 365 J  | -5.7 cm    |
+| 100 m | 313 J  | -36.3 cm   |
+
+Test barrel lenght: 10.2 cm.
 
 [7N31](http://roe.ru/catalog/spetsialnye-sredstva/pistolety-pulemety/7n31/?ysclid=lka3r1txjf753431711) APB
 `575 m/s x 4.2 g = 694 J = 2.31`
