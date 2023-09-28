@@ -97,9 +97,11 @@ Abbreviations:
 
 APB - armor-piercing bullet
 
-SCB - steel core bullet
-
 HPB - high penetration bullet
+
+JHP - jacketed hollow point
+
+SCB - steel core bullet
 
 
 * #### 5.45x39
@@ -203,7 +205,25 @@ Surprize ! 9x39 is almost half power of 5.45x39. But it still better in building
 
 * #### 11.43x23 / .45 ACP
 
-`260 m/s x 14.9 g = 504 J = 1.68`
+[45A](https://magtechammunition.com/products/ammunition/45-auto-230gr-fmj-2/) FJM
+`255 m/s x 14.9 g = 484 J = 1.61`
+
+| Range | Energy | Trajectory |
+|-------|--------|------------|
+| 50 m  | 449 J  | -9.4 cm    |
+| 100 m | 416 J  | -59.5 cm   |
+
+Test barrel lenght: 12.7 cm.
+
+[GG45B](https://magtechammunition.com/products/ammunition/45-autop-230gr-jhp-guardian-gold/) JHP
+`350 m/s x 14.91 g = 913 J = 3.0`
+
+| Range | Energy | Trajectory |
+|-------|--------|------------|
+| 50 m  | 600 J  | -5.4 cm    |
+| 100 m | 527 J  | -35.1 cm   |
+
+Test barrel lenght: 12.7 cm.
 
 Note, `11.43x23 hydro` is not real.
 
