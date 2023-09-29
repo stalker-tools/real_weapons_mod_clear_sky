@@ -97,6 +97,8 @@ Abbreviations:
 
 APB - armor-piercing bullet
 
+FJM - full metal jacket
+
 HPB - high penetration bullet
 
 JHP - jacketed hollow point
@@ -109,6 +111,8 @@ SCB - steel core bullet
 [7N10](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n10/) HPB
 `880 m/s x 3.62 g = 1402 J = 4.67`
 
+Bullet speed at range 25 m.
+
 7N22 APB
 `890 m/s x 3.67 g = 1454 J = 4.85`
 
@@ -120,16 +124,18 @@ _AKS74U_ riffle
 [556B](https://magtechammunition.com/products/ammunition/5-56x45mm-62gr-fmj/) FJM
 `940 m/s x 4 g = 1767 J = 5.89`
 
-| Range | Energy | Trajectory |
-|-------|--------|------------|
-| 100 m | 1767 J | 0 cm       |
-| 200 m | 1432 J | -13.8 cm   |
-| 300 m | 1150 J | -44.7 cm   |
+| Range |  Speed  | Energy | Trajectory |
+|-------|---------|--------|------------|
+| 100 m | 846 m/s | 1431 J |     0 cm   |
+| 200 m | 758 m/s | 1149 J | -13.8 cm   |
+| 300 m | 676 m/s |  914 J | -44.7 cm   |
 
 Test barrel lenght: 50.8 cm.
 
 [RS 101](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/rs-101/) HPB
 `920 m/s x 3.9 g = 1650 J = 5.5`
+
+Bullet speed at range 25 m.
 
 * #### 7.62x25
 
@@ -145,11 +151,11 @@ Test barrel lenght: 50.8 cm.
 [762A](https://magtechammunition.com/products/ammunition/7-62x51mm-ball-mil-std/)
 `835 m/s x 9.52 g = 3319 J = 11.1`
 
-| Range | Energy | Trajectory |
-|-------|--------|------------|
-| 100 m | 2750 J | 0 cm       |
-| 200 m | 2262 J | -17 cm     |
-| 300 m | 1843 J | -54.8 cm   |
+| Range |  Speed  | Energy | Trajectory |
+|-------|---------|--------|------------|
+| 100 m | 760 m/s | 2749 J |   0 cm     |
+| 200 m | 689 m/s | 2260 J | -17 cm     |
+| 300 m | 622 m/s | 1842 J | -54.8 cm   |
 
 Test barrel lenght: 56.2 cm.
 
@@ -158,8 +164,12 @@ Test barrel lenght: 56.2 cm.
 [7N1](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n1/)
 `820 m/s x 9.9 g = 3352 J = 11.17`
 
+Bullet speed at range 25 m.
+
 [7N14](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n14/) APB
 `820 m/s x 9.9 g = 3352 J = 11.17`
+
+Bullet speed at range 25 m.
 
 * #### 9x18
 
@@ -169,8 +179,12 @@ Test barrel lenght: 56.2 cm.
 [7N25](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n25/) APB
 `480 m/s x 3.6 g = 415 J = 1.38`
 
+Bullet speed at range 10 m.
+
 [7N21](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n21/) SCB
 `455 m/s x 5.4 g = 559 J = 1.86`
+
+Bullet speed at range 10 m.
 
 _PB_ pistol
 `hit_power = 290 m/s x 6.1 g = 257 J / 280 J = 0.92`
@@ -180,17 +194,19 @@ _PB_ pistol
 [9A](https://magtechammunition.com/products/ammunition/9mm-luger-115gr-fmj-2/) FJM
 `346 m/s x 7.45 g = 446 J = 1.49`
 
-| Range | Energy | Trajectory |
-|-------|--------|------------|
-| 50 m  | 365 J  | -5.7 cm    |
-| 100 m | 313 J  | -36.3 cm   |
+| Range |  Speed  | Energy | Trajectory |
+|-------|---------|--------|------------|
+| 50 m  | 313 m/s | 365 J  | -5.7 cm    |
+| 100 m | 290 m/s | 313 J  | -36.3 cm   |
 
 Test barrel lenght: 10.2 cm.
 
 [7N31](http://roe.ru/catalog/spetsialnye-sredstva/pistolety-pulemety/7n31/?ysclid=lka3r1txjf753431711) APB
 `575 m/s x 4.2 g = 694 J = 2.31`
 
-MP5SD (with silencer)
+Bullet speed at range 10 m.
+
+_MP5SD_ (with silencer)
 `silencer_hit_power = 285 m/s x 7.5 g = 305 J / 500 J = 0.61`
 
 * #### 9x39
@@ -206,22 +222,22 @@ Surprize ! 9x39 is almost half power of 5.45x39. But it still better in building
 * #### 11.43x23 / .45 ACP
 
 [45A](https://magtechammunition.com/products/ammunition/45-auto-230gr-fmj-2/) FJM
-`255 m/s x 14.9 g = 484 J = 1.61`
+`255 m/s x 14.9 g = 485 J = 1.62`
 
-| Range | Energy | Trajectory |
-|-------|--------|------------|
-| 50 m  | 449 J  | -9.4 cm    |
-| 100 m | 416 J  | -59.5 cm   |
+| Range |  Speed  | Energy | Trajectory |
+|-------|---------|--------|------------|
+| 50 m  | 245 m/s | 448 J  |  -9.4 cm   |
+| 100 m | 236 m/s | 415 J  | -59.5 cm   |
 
 Test barrel lenght: 12.7 cm.
 
 [GG45B](https://magtechammunition.com/products/ammunition/45-autop-230gr-jhp-guardian-gold/) JHP
 `350 m/s x 14.91 g = 913 J = 3.0`
 
-| Range | Energy | Trajectory |
-|-------|--------|------------|
-| 50 m  | 600 J  | -5.4 cm    |
-| 100 m | 527 J  | -35.1 cm   |
+| Range |  Speed  | Energy | Trajectory |
+|-------|---------|--------|------------|
+| 50 m  | 316 m/s | 744 J  |  -5.4 cm   |
+| 100 m | 293 m/s | 640 J  | -35.1 cm   |
 
 Test barrel lenght: 12.7 cm.
 
