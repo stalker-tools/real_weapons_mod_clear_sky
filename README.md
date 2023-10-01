@@ -320,6 +320,19 @@ Note, `11.43x23 hydro` is not real.
 
 _rifles_ fire_distance: 35 m (buckshot) `k_dist = 0.7`, 50 m (bullet) `k_dist = 1`.
 
+### Armor parameters
+
+Bullet proof classification according GOST 34286-2017:
+
+| Class | Bullet power, kJ | Bullet core |
+|-------|-----------|-------------|
+| Br 1  | 0.33      | Steel       |
+| Br 2  | 0.6       | Lead        |
+| Br 3  | 0.59      | Steel heat-strengthened |
+| Br 4  | 1.4       | ↑ |
+| Br 5  | 3.2       | ↑ |
+| Br 6  | 16.5      | ↑ |
+
 ### Create patch file `real_weapons.patch`:
 ```sh
 diff -bur "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata_orig" "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata" > real_weapons.patch
