@@ -95,35 +95,35 @@ Wikipedia used if no datasheet link.
 
 Abbreviations:
 
-APB - armor-piercing bullet
+‣ APB - armor-piercing bullet
 
-FMJ - full metal jacket
+‣ FMJ - full metal jacket
 
-HPB - high penetration bullet
+‣ HPB - high penetration bullet
 
-JHP - jacketed hollow point
+‣ JHP - jacketed hollow point
 
-SCB - steel core bullet
+‣ SCB - steel core bullet
 
 
 * #### 5.45x39
 
-[7N10](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n10/) HPB
+‣ [7N10](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n10/) HPB
 `880 m/s x 3.62 g = 1402 J = 4.67`
 
 Bullet speed at range 25 m.
 Dispersion radius at 200 m (R50): 6 cm.
 Weight: 10.6 g.
 
-7N22 APB
+‣ 7N22 APB
 `890 m/s x 3.67 g = 1454 J = 4.85`
 
-_AKS74U_ riffle
+‣ _AKS74U_ riffle
 `hit_power = 735 m/s x 3.62 g = 978 J / 1402 J = 0.7`
 
 * #### 5.56x45
 
-[556B (civil)](https://magtechammunition.com/products/ammunition/5-56x45mm-62gr-fmj/) FMJ
+‣ [556B (civil)](https://magtechammunition.com/products/ammunition/5-56x45mm-62gr-fmj/) FMJ
 `940 m/s x 4 g = 1767 J = 5.89`
 
 | Range |  Speed  | Energy | Trajectory |
@@ -134,7 +134,7 @@ _AKS74U_ riffle
 
 Test barrel lenght: 50.8 cm.
 
-[RS 101](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/rs-101/) HPB
+‣ [RS 101](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/rs-101/) HPB
 `920 m/s x 3.9 g = 1650 J = 5.5`
 
 Bullet speed at range 25 m.
@@ -144,7 +144,7 @@ Weight: 11.0 g.
 
 * #### 7.62x25
 
-[57-N-134](https://www.kalashnikov.ru/medialibrary/6c0/24_30.pdf)
+‣ [57-N-134](https://www.kalashnikov.ru/medialibrary/6c0/24_30.pdf)
 `440 m/s x 5.5 g = 532 J = 1.78`
 
 Dispersion at 25 m (R50): 2.5 cm.
@@ -152,12 +152,12 @@ Weight: 10.6 g.
 
 * #### 7.62x39
 
-57-Н-231
+‣ 57-N-231
 `720 m/s x 7.9 g = 2048 J = 6.83`
 
 Weight: 16.5 g.
 
-7N23 APB
+‣ 7N23 APB
 `735 m/s x 7.9 g = 2134 J = 7.1`
 
 Armor-piercing for 2P steel armor type 5 mm at 200 m: 100 %.
@@ -165,7 +165,7 @@ Weight: 16.3 g.
 
 * #### 7.62x51
 
-[762A](https://magtechammunition.com/products/ammunition/7-62x51mm-ball-mil-std/)
+‣ [762A](https://magtechammunition.com/products/ammunition/7-62x51mm-ball-mil-std/)
 `835 m/s x 9.52 g = 3319 J = 11.1`
 
 | Range |  Speed  | Energy | Trajectory |
@@ -176,7 +176,7 @@ Weight: 16.3 g.
 
 Test barrel lenght: 56.2 cm.
 
-[.308 Win (civil)](https://tulammo.ru/production/vintovochnye-patrony/ceriya-okhota-308-win-7-62kh51-s-puley-fmj-bt-195-gr-12-6-g-s-latunnoy-obolochkoy-i-latunnoy-gilzoy/) FMJ BT
+‣ [.308 Win (civil)](https://tulammo.ru/production/vintovochnye-patrony/ceriya-okhota-308-win-7-62kh51-s-puley-fmj-bt-195-gr-12-6-g-s-latunnoy-obolochkoy-i-latunnoy-gilzoy/) FMJ BT
 `750 m/s x 12.63 g = 3551 J = 11.84`
 
 Speed at range 25 m: 735 m/s.
@@ -185,14 +185,14 @@ Weight: 28.04 g.
 
 * #### 7.62x54
 
-[7N1](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n1/)
+‣ [7N1](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n1/)
 `820 m/s x 9.9 g = 3352 J = 11.17`
 
 Bullet speed at range 25 m.
 Dispersion radius at 300 m (R100): 8 cm.
 Weight: 23.2 g.
 
-[7N14](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n14/) APB
+‣ [7N14](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n14/) APB
 `820 m/s x 9.9 g = 3352 J = 11.17`
 
 Bullet speed at range 25 m.
@@ -201,20 +201,20 @@ Weight: 23.2 g.
 
 * #### 9x18
 
-[57-N-181](https://www.kalashnikov.ru/medialibrary/6c0/24_30.pdf)
+‣ [57-N-181](https://www.kalashnikov.ru/medialibrary/6c0/24_30.pdf)
 `303 m/s x 6.1 g = 280 J = 0.93`
 
 Dispersion radius at 25 m (R50): 3 cm.
 Weight: 9.325 g.
 
-[7N25](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n25/) APB
+‣ [7N25](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n25/) APB
 `480 m/s x 3.6 g = 415 J = 1.38`
 
 Bullet speed at range 10 m.
 Armor-piercing for St3 steel 5 mm at 10 m: 100 %.
 Weight: 7.5 g.
 
-[7N21](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n21/) SCB
+‣ [7N21](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n21/) SCB
 `455 m/s x 5.4 g = 559 J = 1.86`
 
 Bullet speed at range 10 m.
@@ -223,19 +223,19 @@ Armor-piercing for St3 steel 4 mm at 55 m: 80 %.
 Armor-piercing for St3 steel 5 mm at 35 m: 80 %.
 Weight: 9.65 g.
 
-[9 mm Makarov (civil)](https://tulammo.ru/production/pistoletnye-patrony/9-mm-makarov-9kh18-s-puley-fmj-92-gr-5-92-g-s-bimetallicheskoy-obolochkoy-i-stalnoy-gilzoy/) FMJ
+‣ [9 mm Makarov (civil)](https://tulammo.ru/production/pistoletnye-patrony/9-mm-makarov-9kh18-s-puley-fmj-92-gr-5-92-g-s-bimetallicheskoy-obolochkoy-i-stalnoy-gilzoy/) FMJ
 `315 m/s x 5.95 g = 295 J = 0.98`
 
 Speed at 10 m: 303 m/s.
 Dispersion at 25 m: 8.5 cm.
 Weight: 9.665 g.
 
-_PB_ pistol
+‣ _PB_ pistol
 `hit_power = 290 m/s x 6.1 g = 257 J / 280 J = 0.92`
 
 * #### 9x19
 
-[9A (civil)](https://magtechammunition.com/products/ammunition/9mm-luger-115gr-fmj-2/) FMJ
+‣ [9A (civil)](https://magtechammunition.com/products/ammunition/9mm-luger-115gr-fmj-2/) FMJ
 `346 m/s x 7.45 g = 446 J = 1.49`
 
 | Range |  Speed  | Energy | Trajectory |
@@ -245,7 +245,7 @@ _PB_ pistol
 
 Test barrel lenght: 10.2 cm.
 
-[7N31](http://roe.ru/catalog/spetsialnye-sredstva/pistolety-pulemety/7n31/?ysclid=lka3r1txjf753431711) APB
+‣ [7N31](http://roe.ru/catalog/spetsialnye-sredstva/pistolety-pulemety/7n31/?ysclid=lka3r1txjf753431711) APB
 `575 m/s x 4.2 g = 694 J = 2.31`
 
 Bullet speed at range 10 m.
@@ -253,32 +253,32 @@ Dispersion radius at 25 m (R50): 3 cm.
 Armor-piercing for St3 steel 8 mm at 10 m: 100 %.
 Weight: 8.2 g.
 
-[9 mm Luger (civil)](https://tulammo.ru/production/pistoletnye-patrony/9-mm-luger-9x19-s-puley-fmj-145-gr-9-3-g-s-bimetallicheskoy-obolochkoy-i-stalnoy-gilzoy/) FMJ
+‣ [9 mm Luger (civil)](https://tulammo.ru/production/pistoletnye-patrony/9-mm-luger-9x19-s-puley-fmj-145-gr-9-3-g-s-bimetallicheskoy-obolochkoy-i-stalnoy-gilzoy/) FMJ
 `320 m/s x 9.33 g = 478 J = 1.59`
 
 Speed at range 10 m: 310 m/s.
 Dispersion at 25 m (R50): 5 cm.
 Weight: 13.185 g.
 
-[9 mm Luger (civil)](https://tulammo.ru/production/pistoletnye-patrony/patron-9x19-9-mm-luger-fmj-7-5-g-115-gr-bimetallicheskaya-obolochka-stalnaya-gilza/) FMJ
+‣ [9 mm Luger (civil)](https://tulammo.ru/production/pistoletnye-patrony/patron-9x19-9-mm-luger-fmj-7-5-g-115-gr-bimetallicheskaya-obolochka-stalnaya-gilza/) FMJ
 `385 m/s x 7.46 g = 553 J = 1.84`
 
 Speed at range 10 m: 370 m/s.
 Dispersion at 25 m (R50): 5 cm.
 Weight: 11.33 g.
 
-_MP5SD_ (with silencer)
+‣ _MP5SD_ (with silencer)
 `silencer_hit_power = 285 m/s x 7.5 g = 305 J / 500 J = 0.61`
 
 * #### 9x39
 
-[SP-5](http://roe.ru/catalog/spetsialnye-sredstva/avtomaty2/as/) SCB
+‣ [SP-5](http://roe.ru/catalog/spetsialnye-sredstva/avtomaty2/as/) SCB
 `295 m/s x 16 g = 696 J = 2.32`
 
-PAB-9 APB
+‣ PAB-9 APB
 `310 m/s x 17 g = 817 J = 2.72`
 
-[9х39 (civil)](https://tulammo.ru/production/vintovochnye-patrony/9x39/) FMJ
+‣ [9х39 (civil)](https://tulammo.ru/production/vintovochnye-patrony/9x39/) FMJ
 `320 m/s x 16 g = 819 J = 2.73`
 
 Speed at 10 m: 310 m/s.
@@ -289,7 +289,7 @@ Surprize ! 9x39 is almost half power of 5.45x39. But it still better in building
 
 * #### 11.43x23 / .45 ACP
 
-[45A (civil)](https://magtechammunition.com/products/ammunition/45-auto-230gr-fmj-2/) FMJ
+‣ [45A (civil)](https://magtechammunition.com/products/ammunition/45-auto-230gr-fmj-2/) FMJ
 `255 m/s x 14.9 g = 485 J = 1.62`
 
 | Range |  Speed  | Energy | Trajectory |
@@ -299,7 +299,7 @@ Surprize ! 9x39 is almost half power of 5.45x39. But it still better in building
 
 Test barrel lenght: 12.7 cm.
 
-[GG45B (civil)](https://magtechammunition.com/products/ammunition/45-autop-230gr-jhp-guardian-gold/) JHP
+‣ [GG45B (civil)](https://magtechammunition.com/products/ammunition/45-autop-230gr-jhp-guardian-gold/) JHP
 `350 m/s x 14.91 g = 913 J = 3.0`
 
 | Range |  Speed  | Energy | Trajectory |
@@ -313,12 +313,12 @@ Note, `11.43x23 hydro` is not real.
 
 * #### 12x70
 
-[Express Kupra buckshot 6.5 мм 34 g (civil)](https://techcrim.ru/?page_id=16396) Copper-plated shot
+‣ [Express Kupra buckshot 6.5 мм 34 g (civil)](https://techcrim.ru/?page_id=16396) Copper-plated shot
 
 `430 m/s x 1.26 g = 117 J = 0.39`
 `buck_shot = 34 g / 1.26 g = 27`
 
-_rifles_ fire_distance: 35 m (buckshot) `k_dist = 0.7`, 50 m (bullet) `k_dist = 1`.
+‣ _rifles_ fire_distance: 35 m (buckshot) `k_dist = 0.7`, 50 m (bullet) `k_dist = 1`.
 
 ### Armor parameters
 
