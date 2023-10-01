@@ -318,6 +318,30 @@ Note, `11.43x23 hydro` is not real.
 `430 m/s x 1.26 g = 117 J = 0.39`
 `buck_shot = 34 g / 1.26 g = 27`
 
+‣ [Express Kupra buckshot 8.0 мм 33 g (civil)](https://techcrim.ru/?page_id=16396) Copper-plated shot
+
+`430 m/s x 3.2 g = 296 J = 0.99`
+`buck_shot = 33 g / 3.2 g = 10`
+
+‣ [UNO 40 bullet (civil)](https://techcrim.ru/?page_id=16396) lead
+
+`390 m/s x 40 g = 3042 J = 10.14`
+
+Test barrel lenght: 70 cm.
+Dispersion at 50 m: 6.0 cm.
+
+‣ [L-2 Leningradka sub-caliber bullet (civil)](https://techcrim.ru/?page_id=16396) steel
+
+`465 m/s x 26 g = 2811 J = 9.37`
+
+| Range |  Speed  | Energy | Trajectory |
+|-------|---------|--------|------------|
+|  50 m | 365 m/s | 1732 J |  -8.0 cm   |
+| 100 m | 281 m/s | 1027 J | -32.0 cm   |
+
+Test barrel lenght: 70 cm.
+Dispersion at 50 m: 4.5 cm.
+
 ‣ _rifles_ fire_distance: 35 m (buckshot) `k_dist = 0.7`, 50 m (bullet) `k_dist = 1`.
 
 ### Armor parameters
