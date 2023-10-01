@@ -329,8 +329,8 @@ Bullet proof classification according GOST 34286-2017:
 | Br 1  | 0.33      | Steel       |
 | Br 2  | 0.6       | Lead        |
 | Br 3  | 0.59      | Steel heat-strengthened |
-| Br 4  | 1.4       | ↑ |
-| Br 5  | 3.2       | ↑ |
+| Br 4  | 1.4..2.0  | ↑ |
+| Br 5  | 3.2..3.4  | ↑ |
 | Br 6  | 16.5      | ↑ |
 
 ### Create patch file `real_weapons.patch`:
