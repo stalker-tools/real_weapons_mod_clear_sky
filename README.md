@@ -257,14 +257,14 @@ Weight: 8.2 g.
 `320 m/s x 9.33 g = 478 J = 1.59`
 
 Speed at range 10 m: 310 m/s.
-Dispersion at 25 m (R50): 5 cm.
+Dispersion at 25 m: 5 cm.
 Weight: 13.185 g.
 
 ‣ [9 mm Luger (civil)](https://tulammo.ru/production/pistoletnye-patrony/patron-9x19-9-mm-luger-fmj-7-5-g-115-gr-bimetallicheskaya-obolochka-stalnaya-gilza/) FMJ
 `385 m/s x 7.46 g = 553 J = 1.84`
 
 Speed at range 10 m: 370 m/s.
-Dispersion at 25 m (R50): 5 cm.
+Dispersion at 25 m: 5 cm.
 Weight: 11.33 g.
 
 ‣ _MP5SD_ (with silencer)
