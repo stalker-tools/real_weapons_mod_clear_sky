@@ -22,7 +22,7 @@ Use [.ltx files analysis tools](https://github.com/stalker-tools/tools)
 ```sh
 python graph_tool.py -f "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata" --head "NPC and weapons" > NPC_and_weapons.htm
 ```
-Result: file NPC_and_weapons.htm (for example see _media/NPC_and_weapons.htm_ file).
+Result: NPC_and_weapons.htm multi-graph analysis file (for example see [Clear Sky + SGM 3.10 + Real Weapons.html](https://html-preview.github.io/?url=https://github.com/stalker-tools/real_weapons_mod_clear_sky/blob/main/media/Clear%20Sky%20%2B%20SGM%203.10%20%2B%20Real%20Weapons.html)).
 
 ### Ammo parameters graphs analysis
 
