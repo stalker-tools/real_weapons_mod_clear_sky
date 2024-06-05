@@ -1,6 +1,6 @@
 # Real Weapons mod for Clear Sky
 
-Main purposes of this mod: weapons and ammos has real power, calculated from real manufacturer data sheets (see [Edit .ltx files](https://github.com/stalker-tools/real_weapons_mod_clear_sky#create-real-weapons-mod) section).
+Main purposes of this mod: weapons and ammos has real power, calculated from real manufacturer data sheets (see [Edit .ltx files](https://github.com/stalker-tools/real_weapons_mod_clear_sky#create-real-weapons-mod) section) for _Ammo_ and _Armor_ parameters with manufacturer data sheets links.
 
 Clear Sky version: **1.5.10**
 
