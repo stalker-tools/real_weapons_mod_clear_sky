@@ -144,6 +144,7 @@ Weight: 11.0 g.
 
 Dispersion at 25 m (R50): 2.5 cm.
 Weight: 10.6 g.
+Barrel pressure: 2060 bar.
 
 * #### 7.62x39
 
@@ -177,6 +178,7 @@ Test barrel lenght: 56.2 cm.
 Speed at range 25 m: 735 m/s.
 Dispersion at 100 m: 4.5 cm.
 Weight: 28.04 g.
+Barrel pressure: 4150 bar.
 
 * #### 7.62x54
 
@@ -186,6 +188,7 @@ Weight: 28.04 g.
 Bullet speed at range 25 m.
 Dispersion radius at 300 m (R100): 8 cm.
 Weight: 23.2 g.
+Barrel pressure: 2845 bar.
 
 ‣ [7N14](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n14/) APB
 `820 m/s x 9.9 g = 3352 J = 11.17`
@@ -193,6 +196,7 @@ Weight: 23.2 g.
 Bullet speed at range 25 m.
 Armor-piercing for 2P steel armor type 5 mm at 300 m: 80 %.
 Weight: 23.2 g.
+Barrel pressure: 3040 bar.
 
 * #### 9x18
 
@@ -201,6 +205,7 @@ Weight: 23.2 g.
 
 Dispersion radius at 25 m (R50): 3 cm.
 Weight: 9.325 g.
+Barrel pressure: 1177 bar.
 
 ‣ [7N25](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n25/) APB
 `480 m/s x 3.6 g = 415 J = 1.38`
@@ -208,6 +213,7 @@ Weight: 9.325 g.
 Bullet speed at range 10 m.
 Armor-piercing for St3 steel 5 mm at 10 m: 100 %.
 Weight: 7.5 g.
+Barrel pressure: 1422 bar.
 
 ‣ [7N21](http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/boepripasy-k-strelkovomu-oruzhiyu/7n21/) SCB
 `455 m/s x 5.4 g = 559 J = 1.86`
@@ -217,6 +223,7 @@ Dispersion radius at 25 m (R50): 3 cm.
 Armor-piercing for St3 steel 4 mm at 55 m: 80 %.
 Armor-piercing for St3 steel 5 mm at 35 m: 80 %.
 Weight: 9.65 g.
+Barrel pressure: 2746 bar.
 
 ‣ [9 mm Makarov (civil)](https://tulammo.ru/production/pistoletnye-patrony/9-mm-makarov-9kh18-s-puley-fmj-92-gr-5-92-g-s-bimetallicheskoy-obolochkoy-i-stalnoy-gilzoy/) FMJ
 `315 m/s x 5.95 g = 295 J = 0.98`
@@ -224,6 +231,7 @@ Weight: 9.65 g.
 Speed at 10 m: 303 m/s.
 Dispersion at 25 m: 8.5 cm.
 Weight: 9.665 g.
+Barrel pressure: 1177 bar.
 
 ‣ _PB_ pistol
 `hit_power = 290 m/s x 6.1 g = 257 J / 280 J = 0.92`
@@ -247,6 +255,7 @@ Bullet speed at range 10 m.
 Dispersion radius at 25 m (R50): 3 cm.
 Armor-piercing for St3 steel 8 mm at 10 m: 100 %.
 Weight: 8.2 g.
+Barrel pressure: 2746 bar.
 
 ‣ [9 mm Luger (civil)](https://tulammo.ru/production/pistoletnye-patrony/9-mm-luger-9x19-s-puley-fmj-145-gr-9-3-g-s-bimetallicheskoy-obolochkoy-i-stalnoy-gilzoy/) FMJ
 `320 m/s x 9.33 g = 478 J = 1.59`
@@ -254,6 +263,7 @@ Weight: 8.2 g.
 Speed at range 10 m: 310 m/s.
 Dispersion at 25 m: 5 cm.
 Weight: 13.185 g.
+Barrel pressure: 2350 bar.
 
 ‣ [9 mm Luger (civil)](https://tulammo.ru/production/pistoletnye-patrony/patron-9x19-9-mm-luger-fmj-7-5-g-115-gr-bimetallicheskaya-obolochka-stalnaya-gilza/) FMJ
 `385 m/s x 7.46 g = 553 J = 1.84`
@@ -261,6 +271,7 @@ Weight: 13.185 g.
 Speed at range 10 m: 370 m/s.
 Dispersion at 25 m: 5 cm.
 Weight: 11.33 g.
+Barrel pressure: 2350 bar.
 
 ‣ _MP5SD_ (with silencer)
 `silencer_hit_power = 285 m/s x 7.5 g = 305 J / 500 J = 0.61`
@@ -279,6 +290,7 @@ Weight: 11.33 g.
 Speed at 10 m: 310 m/s.
 Dispersion at 100 m: 7.5 cm.
 Weight: 23.325 g.
+Barrel pressure: 2600 bar.
 
 Surprize ! 9x39 is almost half power of 5.45x39. But it still better in buildings - no ricochets.
 
@@ -312,11 +324,13 @@ Note, `11.43x23 hydro` is not real.
 
 `430 m/s x 1.26 g = 117 J = 0.39`
 `buck_shot = 34 g / 1.26 g = 27`
+Barrel pressure: 740 bar.
 
 ‣ [Express Kupra buckshot 8.0 мм 33 g (civil)](https://techcrim.ru/?page_id=16396) Copper-plated shot
 
 `430 m/s x 3.2 g = 296 J = 0.99`
 `buck_shot = 33 g / 3.2 g = 10`
+Barrel pressure: 740 bar.
 
 ‣ [UNO 40 bullet (civil)](https://techcrim.ru/?page_id=16396) lead
 
@@ -336,6 +350,7 @@ Dispersion at 50 m: 6.0 cm.
 
 Test barrel lenght: 70 cm.
 Dispersion at 50 m: 4.5 cm.
+Barrel pressure: 1320 bar.
 
 ‣ _rifles_ fire_distance: 35 m (buckshot) `k_dist = 0.7`, 50 m (bullet) `k_dist = 1`.
 
