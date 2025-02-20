@@ -368,6 +368,27 @@ Bullet (knife) proof classification according GOST 34286-2017:
 | Br 5  | 3.2..3.4  | ↑ |
 | Br 6  | 16.5      | ↑ |
 
+* #### Body armor
+
+| Model     | Class | Weight steel | Weight ceramic | Price | Notes |
+|-----------|-------|--------------|----------------|-------|-------|
+| Fagor-1   | Br1   | 4.2 | 2.2 | 12 | |
+| Fagor-2   | Br2   | 4.3 | -   | 13 | |
+| Fagor-3   | Br3   | 6   | -   | 20 | |
+| Fagor-4   | Br4   | 12  | 10  | 95 | Assault |
+| Fagor-5   | Br5   | -   | 12  |118 | Assault |
+| Plitnik-4 | Br4   | 9   | 7.5 | 80 | Lightweight: chest and back |
+| Plitnik-5 | Br5   | -   | 8   | 95 | Lightweight: chest and back |
+
+* #### Head armor
+
+| Model     | Class | Weight | Price | Notes |
+|-----------|-------|--------|-------|-------|
+| ShPU-OS   | S     | 1.2 | 31 | "Ops-Core" Carbon |
+| Beret     | Br1   | 1.9 | 33 | Kevlar |
+| ShBM2-M   | Br2   | 1.9 | 70 | Kevlar |
+| Tor-2     | Br2   | 2.5 |127 | Assault, Kevlar |
+
 ### Create patch file `real_weapons.patch`:
 ```sh
 diff -bur "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata_orig" "$HOME/.wine/drive_c/Program Files (x86)/clear_sky/gamedata" > real_weapons.patch
