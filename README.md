@@ -356,10 +356,11 @@ Barrel pressure: 1320 bar.
 
 ### Armor parameters
 
-Bullet proof classification according GOST 34286-2017:
+Bullet (knife) proof classification according GOST 34286-2017:
 
 | Class | Bullet power, kJ | Bullet core |
 |-------|-----------|-------------|
+| S     |0.05 (kick)| (Knife)     |
 | Br 1  | 0.33      | Steel       |
 | Br 2  | 0.6       | Lead        |
 | Br 3  | 0.59      | Steel heat-strengthened |
