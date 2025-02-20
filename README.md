@@ -369,9 +369,10 @@ Bullet (knife) proof classification according GOST 34286-2017:
 | Br 6  | 16.5      | ↑ |
 
 * #### Body armor
-
-| Model     | Class | Weight steel | Weight ceramic | Price | Notes |
-|-----------|-------|--------------|----------------|-------|-------|
+ 
+ Avangard™
+| Model     | Class | Weight, steel | Weight, ceramic | Price | Notes |
+|-----------|-------|---------------|-----------------|-------|-------|
 | Fagor-1   | Br1   | 4.2 | 2.2 | 12 | |
 | Fagor-2   | Br2   | 4.3 | -   | 13 | |
 | Fagor-3   | Br3   | 6   | -   | 20 | |
@@ -382,11 +383,16 @@ Bullet (knife) proof classification according GOST 34286-2017:
 
 * #### Head armor
 
+Omnitek-M™
 | Model     | Class | Weight | Price | Notes |
 |-----------|-------|--------|-------|-------|
 | ShPU-OS   | S     | 1.2 | 31 | "Ops-Core" Carbon |
 | Beret     | Br1   | 1.9 | 33 | Kevlar |
 | ShBM2-M   | Br2   | 1.9 | 70 | Kevlar |
+
+NPP KlASS™
+| Model     | Class | Weight | Price | Notes |
+|-----------|-------|--------|-------|-------|
 | Tor-2     | Br2   | 2.5 |127 | Assault, Kevlar |
 
 ### Create patch file `real_weapons.patch`:
