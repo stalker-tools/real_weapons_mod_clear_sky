@@ -361,19 +361,19 @@ Bullet (knife) proof classification according GOST 34286-2017:
 | Class | Bullet power, kJ | Bullet core |
 |-------|-----------|-------------|
 | S     |0.05 (kick)| (Knife)     |
-| Br 1  | 0.33      | Steel       |
-| Br 2  | 0.6       | Lead        |
-| Br 3  | 0.59      | Steel heat-strengthened |
-| Br 4  | 1.4..2.0  | ↑ |
-| Br 5  | 3.2..3.4  | ↑ |
-| Br 6  | 16.5      | ↑ |
+| Br1   | 0.33      | Steel       |
+| Br2   | 0.6       | Lead        |
+| Br3   | 0.59      | Steel heat-strengthened |
+| Br4   | 1.4..2.0  | ↑ |
+| Br5   | 3.2..3.4  | ↑ |
+| Br6   | 16.5      | ↑ |
 
 * #### Body armor
  
- Avangard™
-| Model     | Class | Weight, steel | Weight, ceramic | Price | Notes |
-|-----------|-------|---------------|-----------------|-------|-------|
-| Fagor-1   | Br1   | 4.2 | 2.2 | 12 | |
+ [Avangard™](https://avangard.ooo/en/products/bulletproof-vests/fagor/)
+| Model     | Class | Weight, steel, kg | Weight, ceramic, kg | Price | Notes |
+|-----------|-------|-------------------|---------------------|-------|-------|
+| Fagor-1   | Br1   | 4.2 | 2.2 (carbon) | 12 | |
 | Fagor-2   | Br2   | 4.3 | -   | 13 | |
 | Fagor-3   | Br3   | 6   | -   | 20 | |
 | Fagor-4   | Br4   | 12  | 10  | 95 | Assault |
@@ -383,16 +383,16 @@ Bullet (knife) proof classification according GOST 34286-2017:
 
 * #### Head armor
 
-Omnitek-M™
-| Model     | Class | Weight | Price | Notes |
-|-----------|-------|--------|-------|-------|
+[Omnitek-M™](https://www.omnitek.ru/eng/product.html)
+| Model     | Class | Weight, kg | Price | Notes |
+|-----------|-------|------------|-------|-------|
 | ShPU-OS   | S     | 1.2 | 31 | "Ops-Core" Carbon |
 | Beret     | Br1   | 1.9 | 33 | Kevlar |
 | ShBM2-M   | Br2   | 1.9 | 70 | Kevlar |
 
-NPP KlASS™
-| Model     | Class | Weight | Price | Notes |
-|-----------|-------|--------|-------|-------|
+[NPP KlASS™](https://classcom.ru/products/tor-2/)
+| Model     | Class | Weight, kg | Price | Notes |
+|-----------|-------|------------|-------|-------|
 | Tor-2     | Br2   | 2.5 |127 | Assault, Kevlar |
 
 ### Create patch file `real_weapons.patch`:
