@@ -113,6 +113,13 @@ Weight: 10.6 g.
 ‣ 7N22 APB
 `890 m/s x 3.67 g = 1454 J = 4.85`
 
+‣ [5.45x39 buckshot](https://techcrim.ru/?page_id=18849)
+`650 m/s x 5.7 g = 1204 J = 4.01`
+
+`buck_shot = 40 g / 5.7 g = 7`
+Distanse = 50 m
+Weight: 10.6 g.
+
 ‣ _AKS74U_ riffle
 `hit_power = 735 m/s x 3.62 g = 978 J / 1402 J = 0.7`
 
